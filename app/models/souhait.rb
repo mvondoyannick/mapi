@@ -1,0 +1,2 @@
+class Souhait < ApplicationRecord
+end

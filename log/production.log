@@ -1,0 +1,1056 @@
+I, [2018-06-04T17:54:54.473174 #21151]  INFO -- : [da3dc876-4bde-49e4-a989-e5daf7693d97] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:54:54 +0200
+I, [2018-06-04T17:54:54.483392 #21151]  INFO -- : [da3dc876-4bde-49e4-a989-e5daf7693d97] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T17:54:54.473640 #21151]  INFO -- : [19cad3f0-479e-4ce8-9238-081b8ed96963] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:54:54 +0200
+I, [2018-06-04T17:54:54.490365 #21151]  INFO -- : [19cad3f0-479e-4ce8-9238-081b8ed96963] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:54:54.493775 #21151] DEBUG -- : [da3dc876-4bde-49e4-a989-e5daf7693d97]   [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-06-04T17:54:54.496556 #21151] DEBUG -- : [da3dc876-4bde-49e4-a989-e5daf7693d97]   [1m[36mPpCity Load (0.8ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+D, [2018-06-04T17:54:54.496669 #21151] DEBUG -- : [19cad3f0-479e-4ce8-9238-081b8ed96963]   [1m[35m (3.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+I, [2018-06-04T17:54:54.505455 #21151]  INFO -- : [da3dc876-4bde-49e4-a989-e5daf7693d97] Completed 200 OK in 22ms (Views: 10.0ms)
+D, [2018-06-04T17:54:54.506166 #21151] DEBUG -- : [19cad3f0-479e-4ce8-9238-081b8ed96963]   [1m[36mPpProgram Load (7.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:54:54 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:54:54.512661 #21151] DEBUG -- : [19cad3f0-479e-4ce8-9238-081b8ed96963]   [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-06-04T17:54:54.515878 #21151] DEBUG -- : [19cad3f0-479e-4ce8-9238-081b8ed96963]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:54:54.528005 #21151] DEBUG -- : [19cad3f0-479e-4ce8-9238-081b8ed96963]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:54:54.528527 #21151] DEBUG -- : [19cad3f0-479e-4ce8-9238-081b8ed96963]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:54:54.528938 #21151] DEBUG -- : [19cad3f0-479e-4ce8-9238-081b8ed96963]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:54:54.529261 #21151] DEBUG -- : [19cad3f0-479e-4ce8-9238-081b8ed96963]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:54:54.529579 #21151] DEBUG -- : [19cad3f0-479e-4ce8-9238-081b8ed96963]   [1m[36mPpMarche Load (0.1ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:54:54.529969 #21151] DEBUG -- : [19cad3f0-479e-4ce8-9238-081b8ed96963]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:54:54.531244 #21151]  INFO -- : [19cad3f0-479e-4ce8-9238-081b8ed96963] Completed 200 OK in 41ms (Views: 1.1ms)
+I, [2018-06-04T17:54:54.545157 #21151]  INFO -- : [374ed975-bd1f-4f2c-ba17-472d3b7deabb] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:54:54 +0200
+I, [2018-06-04T17:54:54.545654 #21151]  INFO -- : [374ed975-bd1f-4f2c-ba17-472d3b7deabb] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:54:54.547243 #21151] DEBUG -- : [374ed975-bd1f-4f2c-ba17-472d3b7deabb]   [1m[36mPpCity Load (0.8ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:54:54.547942 #21151]  INFO -- : [374ed975-bd1f-4f2c-ba17-472d3b7deabb] Completed 200 OK in 2ms (Views: 1.9ms)
+I, [2018-06-04T17:54:54.549715 #21151]  INFO -- : [44bd0bc6-307d-484e-b02f-75078380ee84] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:54:54 +0200
+I, [2018-06-04T17:54:54.550103 #21151]  INFO -- : [44bd0bc6-307d-484e-b02f-75078380ee84] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:54:54.550977 #21151] DEBUG -- : [44bd0bc6-307d-484e-b02f-75078380ee84]   [1m[36mPpProgram Load (0.3ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:54:54 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:54:54.551626 #21151] DEBUG -- : [44bd0bc6-307d-484e-b02f-75078380ee84]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:54:54.551989 #21151] DEBUG -- : [44bd0bc6-307d-484e-b02f-75078380ee84]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:54:54.552342 #21151] DEBUG -- : [44bd0bc6-307d-484e-b02f-75078380ee84]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:54:54.552670 #21151] DEBUG -- : [44bd0bc6-307d-484e-b02f-75078380ee84]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:54:54.553016 #21151] DEBUG -- : [44bd0bc6-307d-484e-b02f-75078380ee84]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:54:54.553339 #21151] DEBUG -- : [44bd0bc6-307d-484e-b02f-75078380ee84]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:54:54.553671 #21151] DEBUG -- : [44bd0bc6-307d-484e-b02f-75078380ee84]   [1m[36mPpMarche Load (0.1ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:54:54.554849 #21151]  INFO -- : [44bd0bc6-307d-484e-b02f-75078380ee84] Completed 200 OK in 5ms (Views: 1.0ms)
+I, [2018-06-04T17:54:54.556766 #21151]  INFO -- : [c5057446-a225-4684-a96d-1fe63283f8e6] Started GET "/api/ville/4240/marches" for 192.168.1.244 at 2018-06-04 17:54:54 +0200
+I, [2018-06-04T17:54:54.557256 #21151]  INFO -- : [c5057446-a225-4684-a96d-1fe63283f8e6] Processing by Api::ApiController#getMarche as JSON
+I, [2018-06-04T17:54:54.557310 #21151]  INFO -- : [c5057446-a225-4684-a96d-1fe63283f8e6]   Parameters: {"id"=>"4240"}
+D, [2018-06-04T17:54:54.558264 #21151] DEBUG -- : [c5057446-a225-4684-a96d-1fe63283f8e6]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`city_id` = 4240[0m
+I, [2018-06-04T17:54:54.559119 #21151]  INFO -- : [c5057446-a225-4684-a96d-1fe63283f8e6] Completed 200 OK in 2ms (Views: 1.4ms)
+I, [2018-06-04T17:54:57.124171 #21151]  INFO -- : [95b5d0c9-6176-4a93-9d11-c868691ed3ff] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:54:57 +0200
+I, [2018-06-04T17:54:57.125467 #21151]  INFO -- : [95b5d0c9-6176-4a93-9d11-c868691ed3ff] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T17:54:57.127201 #21151]  INFO -- : [1d4a0876-6b33-4aa2-ae5e-0ac4905b23d2] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:54:57 +0200
+I, [2018-06-04T17:54:57.128406 #21151]  INFO -- : [1d4a0876-6b33-4aa2-ae5e-0ac4905b23d2] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:54:57.130970 #21151] DEBUG -- : [95b5d0c9-6176-4a93-9d11-c868691ed3ff]   [1m[36mPpProgram Load (0.7ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:54:57 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:54:57.132928 #21151] DEBUG -- : [95b5d0c9-6176-4a93-9d11-c868691ed3ff]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:54:57.134091 #21151] DEBUG -- : [1d4a0876-6b33-4aa2-ae5e-0ac4905b23d2]   [1m[36mPpCity Load (3.4ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:54:57.136416 #21151]  INFO -- : [1d4a0876-6b33-4aa2-ae5e-0ac4905b23d2] Completed 200 OK in 8ms (Views: 6.9ms)
+D, [2018-06-04T17:54:57.137794 #21151] DEBUG -- : [95b5d0c9-6176-4a93-9d11-c868691ed3ff]   [1m[36mPpMarche Load (4.0ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:54:57.139201 #21151] DEBUG -- : [95b5d0c9-6176-4a93-9d11-c868691ed3ff]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:54:57.140526 #21151] DEBUG -- : [95b5d0c9-6176-4a93-9d11-c868691ed3ff]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:54:57.141801 #21151] DEBUG -- : [95b5d0c9-6176-4a93-9d11-c868691ed3ff]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:54:57.143073 #21151] DEBUG -- : [95b5d0c9-6176-4a93-9d11-c868691ed3ff]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:54:57.144426 #21151] DEBUG -- : [95b5d0c9-6176-4a93-9d11-c868691ed3ff]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:54:57.148424 #21151]  INFO -- : [95b5d0c9-6176-4a93-9d11-c868691ed3ff] Completed 200 OK in 23ms (Views: 3.5ms)
+I, [2018-06-04T17:55:24.288647 #21151]  INFO -- : [8f98b6b0-3542-4bca-bafe-fe13af48132f] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:55:24 +0200
+I, [2018-06-04T17:55:24.289903 #21151]  INFO -- : [8f98b6b0-3542-4bca-bafe-fe13af48132f] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T17:55:24.291745 #21151]  INFO -- : [cbdde1f1-af1f-4b27-8abc-3ba40b6348fc] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:55:24 +0200
+I, [2018-06-04T17:55:24.292774 #21151]  INFO -- : [cbdde1f1-af1f-4b27-8abc-3ba40b6348fc] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:55:24.297108 #21151] DEBUG -- : [8f98b6b0-3542-4bca-bafe-fe13af48132f]   [1m[36mPpProgram Load (5.7ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:55:24 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:55:24.298204 #21151] DEBUG -- : [cbdde1f1-af1f-4b27-8abc-3ba40b6348fc]   [1m[36mPpCity Load (3.7ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:55:24.300125 #21151]  INFO -- : [cbdde1f1-af1f-4b27-8abc-3ba40b6348fc] Completed 200 OK in 7ms (Views: 6.3ms)
+D, [2018-06-04T17:55:24.302038 #21151] DEBUG -- : [8f98b6b0-3542-4bca-bafe-fe13af48132f]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:55:24.303150 #21151] DEBUG -- : [8f98b6b0-3542-4bca-bafe-fe13af48132f]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:55:24.304177 #21151] DEBUG -- : [8f98b6b0-3542-4bca-bafe-fe13af48132f]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:55:24.305150 #21151] DEBUG -- : [8f98b6b0-3542-4bca-bafe-fe13af48132f]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:55:24.306009 #21151] DEBUG -- : [8f98b6b0-3542-4bca-bafe-fe13af48132f]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:55:24.306798 #21151] DEBUG -- : [8f98b6b0-3542-4bca-bafe-fe13af48132f]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:55:24.307558 #21151] DEBUG -- : [8f98b6b0-3542-4bca-bafe-fe13af48132f]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:55:24.310388 #21151]  INFO -- : [8f98b6b0-3542-4bca-bafe-fe13af48132f] Completed 200 OK in 20ms (Views: 2.5ms)
+I, [2018-06-04T17:55:24.774159 #21151]  INFO -- : [6e53592a-9cad-4d22-9c51-414e95b3265f] Started GET "/api/ville/4240/marches" for 192.168.1.244 at 2018-06-04 17:55:24 +0200
+I, [2018-06-04T17:55:24.775377 #21151]  INFO -- : [6e53592a-9cad-4d22-9c51-414e95b3265f] Processing by Api::ApiController#getMarche as JSON
+I, [2018-06-04T17:55:24.775486 #21151]  INFO -- : [6e53592a-9cad-4d22-9c51-414e95b3265f]   Parameters: {"id"=>"4240"}
+D, [2018-06-04T17:55:24.777929 #21151] DEBUG -- : [6e53592a-9cad-4d22-9c51-414e95b3265f]   [1m[36mPpMarche Load (0.7ms)[0m  [1m[34mSELECT `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`city_id` = 4240[0m
+I, [2018-06-04T17:55:24.780583 #21151]  INFO -- : [6e53592a-9cad-4d22-9c51-414e95b3265f] Completed 200 OK in 5ms (Views: 4.1ms)
+I, [2018-06-04T17:55:35.065034 #21151]  INFO -- : [f690f60e-ab3b-4eb5-ada0-9922ab3c829e] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:55:35 +0200
+I, [2018-06-04T17:55:35.066357 #21151]  INFO -- : [f690f60e-ab3b-4eb5-ada0-9922ab3c829e] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T17:55:35.070383 #21151]  INFO -- : [3e24c98e-43d2-4e1f-8fe4-207c5dd3be72] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:55:35 +0200
+I, [2018-06-04T17:55:35.071685 #21151]  INFO -- : [3e24c98e-43d2-4e1f-8fe4-207c5dd3be72] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:55:35.074006 #21151] DEBUG -- : [3e24c98e-43d2-4e1f-8fe4-207c5dd3be72]   [1m[36mPpProgram Load (0.7ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:55:35 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:55:35.076729 #21151] DEBUG -- : [f690f60e-ab3b-4eb5-ada0-9922ab3c829e]   [1m[36mPpCity Load (8.3ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:55:35.079015 #21151]  INFO -- : [f690f60e-ab3b-4eb5-ada0-9922ab3c829e] Completed 200 OK in 12ms (Views: 11.4ms)
+D, [2018-06-04T17:55:35.080206 #21151] DEBUG -- : [3e24c98e-43d2-4e1f-8fe4-207c5dd3be72]   [1m[36mPpMarche Load (3.8ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:55:35.081581 #21151] DEBUG -- : [3e24c98e-43d2-4e1f-8fe4-207c5dd3be72]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:55:35.082773 #21151] DEBUG -- : [3e24c98e-43d2-4e1f-8fe4-207c5dd3be72]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:55:35.084006 #21151] DEBUG -- : [3e24c98e-43d2-4e1f-8fe4-207c5dd3be72]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:55:35.085159 #21151] DEBUG -- : [3e24c98e-43d2-4e1f-8fe4-207c5dd3be72]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:55:35.086340 #21151] DEBUG -- : [3e24c98e-43d2-4e1f-8fe4-207c5dd3be72]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:55:35.087604 #21151] DEBUG -- : [3e24c98e-43d2-4e1f-8fe4-207c5dd3be72]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:55:35.091534 #21151]  INFO -- : [3e24c98e-43d2-4e1f-8fe4-207c5dd3be72] Completed 200 OK in 20ms (Views: 3.4ms)
+I, [2018-06-04T17:55:38.088921 #21151]  INFO -- : [d117a510-0e0e-4f1f-9d5f-7644b3ea16b8] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:55:38 +0200
+I, [2018-06-04T17:55:38.090346 #21151]  INFO -- : [d117a510-0e0e-4f1f-9d5f-7644b3ea16b8] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T17:55:38.091989 #21151]  INFO -- : [016a0e78-5a44-4abb-bec3-fb0675672912] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:55:38 +0200
+I, [2018-06-04T17:55:38.093212 #21151]  INFO -- : [016a0e78-5a44-4abb-bec3-fb0675672912] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:55:38.095938 #21151] DEBUG -- : [d117a510-0e0e-4f1f-9d5f-7644b3ea16b8]   [1m[36mPpProgram Load (0.8ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:55:38 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:55:38.098090 #21151] DEBUG -- : [d117a510-0e0e-4f1f-9d5f-7644b3ea16b8]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:55:38.099182 #21151] DEBUG -- : [016a0e78-5a44-4abb-bec3-fb0675672912]   [1m[36mPpCity Load (3.5ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:55:38.101677 #21151]  INFO -- : [016a0e78-5a44-4abb-bec3-fb0675672912] Completed 200 OK in 8ms (Views: 7.4ms)
+D, [2018-06-04T17:55:38.102959 #21151] DEBUG -- : [d117a510-0e0e-4f1f-9d5f-7644b3ea16b8]   [1m[36mPpMarche Load (4.1ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:55:38.104352 #21151] DEBUG -- : [d117a510-0e0e-4f1f-9d5f-7644b3ea16b8]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:55:38.106557 #21151] DEBUG -- : [d117a510-0e0e-4f1f-9d5f-7644b3ea16b8]   [1m[36mPpMarche Load (1.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:55:38.108806 #21151] DEBUG -- : [d117a510-0e0e-4f1f-9d5f-7644b3ea16b8]   [1m[36mPpMarche Load (1.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:55:38.110517 #21151] DEBUG -- : [d117a510-0e0e-4f1f-9d5f-7644b3ea16b8]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:55:38.112108 #21151] DEBUG -- : [d117a510-0e0e-4f1f-9d5f-7644b3ea16b8]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:55:38.116115 #21151]  INFO -- : [d117a510-0e0e-4f1f-9d5f-7644b3ea16b8] Completed 200 OK in 26ms (Views: 3.4ms)
+I, [2018-06-04T17:56:20.628045 #21151]  INFO -- : [acb7c047-2864-4035-87cb-4f2888b2270d] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:20 +0200
+I, [2018-06-04T17:56:20.629676 #21151]  INFO -- : [acb7c047-2864-4035-87cb-4f2888b2270d] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T17:56:20.631599 #21151]  INFO -- : [37848289-302b-4df3-b721-e248c82b5ba9] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:20 +0200
+I, [2018-06-04T17:56:20.632610 #21151]  INFO -- : [37848289-302b-4df3-b721-e248c82b5ba9] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:56:20.635354 #21151] DEBUG -- : [37848289-302b-4df3-b721-e248c82b5ba9]   [1m[36mPpProgram Load (0.6ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:20 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:20.637007 #21151] DEBUG -- : [acb7c047-2864-4035-87cb-4f2888b2270d]   [1m[36mPpCity Load (2.9ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:20.639262 #21151]  INFO -- : [acb7c047-2864-4035-87cb-4f2888b2270d] Completed 200 OK in 9ms (Views: 8.6ms)
+D, [2018-06-04T17:56:20.640449 #21151] DEBUG -- : [37848289-302b-4df3-b721-e248c82b5ba9]   [1m[36mPpMarche Load (3.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:20.641695 #21151] DEBUG -- : [37848289-302b-4df3-b721-e248c82b5ba9]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:20.642785 #21151] DEBUG -- : [37848289-302b-4df3-b721-e248c82b5ba9]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:20.643983 #21151] DEBUG -- : [37848289-302b-4df3-b721-e248c82b5ba9]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:20.645090 #21151] DEBUG -- : [37848289-302b-4df3-b721-e248c82b5ba9]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:20.646319 #21151] DEBUG -- : [37848289-302b-4df3-b721-e248c82b5ba9]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:20.647476 #21151] DEBUG -- : [37848289-302b-4df3-b721-e248c82b5ba9]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:20.651167 #21151]  INFO -- : [37848289-302b-4df3-b721-e248c82b5ba9] Completed 200 OK in 18ms (Views: 3.2ms)
+I, [2018-06-04T17:56:20.665559 #21151]  INFO -- : [906af29a-3641-4e13-bdb0-5270fc6cd3ba] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:20 +0200
+I, [2018-06-04T17:56:20.666471 #21151]  INFO -- : [906af29a-3641-4e13-bdb0-5270fc6cd3ba] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T17:56:20.667837 #21151]  INFO -- : [073a2827-4716-4026-b542-8b25ca66391c] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:20 +0200
+I, [2018-06-04T17:56:20.668584 #21151]  INFO -- : [073a2827-4716-4026-b542-8b25ca66391c] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:56:20.670600 #21151] DEBUG -- : [073a2827-4716-4026-b542-8b25ca66391c]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:20 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:20.671893 #21151] DEBUG -- : [906af29a-3641-4e13-bdb0-5270fc6cd3ba]   [1m[36mPpCity Load (2.2ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:20.673645 #21151]  INFO -- : [906af29a-3641-4e13-bdb0-5270fc6cd3ba] Completed 200 OK in 7ms (Views: 6.4ms)
+D, [2018-06-04T17:56:20.674620 #21151] DEBUG -- : [073a2827-4716-4026-b542-8b25ca66391c]   [1m[36mPpMarche Load (2.9ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:20.675695 #21151] DEBUG -- : [073a2827-4716-4026-b542-8b25ca66391c]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:20.676608 #21151] DEBUG -- : [073a2827-4716-4026-b542-8b25ca66391c]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:20.677530 #21151] DEBUG -- : [073a2827-4716-4026-b542-8b25ca66391c]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:20.678352 #21151] DEBUG -- : [073a2827-4716-4026-b542-8b25ca66391c]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:20.679210 #21151] DEBUG -- : [073a2827-4716-4026-b542-8b25ca66391c]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:20.679938 #21151] DEBUG -- : [073a2827-4716-4026-b542-8b25ca66391c]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:20.683020 #21151]  INFO -- : [073a2827-4716-4026-b542-8b25ca66391c] Completed 200 OK in 14ms (Views: 2.7ms)
+I, [2018-06-04T17:56:21.553456 #21151]  INFO -- : [d1997b53-da42-4dcf-be73-e7e2a1cc7d27] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:21 +0200
+I, [2018-06-04T17:56:21.555034 #21151]  INFO -- : [d1997b53-da42-4dcf-be73-e7e2a1cc7d27] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T17:56:21.556901 #21151]  INFO -- : [4cd735a4-9660-4432-b77d-e8572cb698e8] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:21 +0200
+I, [2018-06-04T17:56:21.558046 #21151]  INFO -- : [4cd735a4-9660-4432-b77d-e8572cb698e8] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:56:21.560756 #21151] DEBUG -- : [4cd735a4-9660-4432-b77d-e8572cb698e8]   [1m[36mPpProgram Load (0.7ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:21 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:21.562555 #21151] DEBUG -- : [d1997b53-da42-4dcf-be73-e7e2a1cc7d27]   [1m[36mPpCity Load (3.0ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:21.565102 #21151]  INFO -- : [d1997b53-da42-4dcf-be73-e7e2a1cc7d27] Completed 200 OK in 10ms (Views: 8.9ms)
+D, [2018-06-04T17:56:21.566447 #21151] DEBUG -- : [4cd735a4-9660-4432-b77d-e8572cb698e8]   [1m[36mPpMarche Load (4.1ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:21.567951 #21151] DEBUG -- : [4cd735a4-9660-4432-b77d-e8572cb698e8]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:21.569297 #21151] DEBUG -- : [4cd735a4-9660-4432-b77d-e8572cb698e8]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:21.570504 #21151] DEBUG -- : [4cd735a4-9660-4432-b77d-e8572cb698e8]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:21.571682 #21151] DEBUG -- : [4cd735a4-9660-4432-b77d-e8572cb698e8]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:21.572859 #21151] DEBUG -- : [4cd735a4-9660-4432-b77d-e8572cb698e8]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:21.574109 #21151] DEBUG -- : [4cd735a4-9660-4432-b77d-e8572cb698e8]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:21.578181 #21151]  INFO -- : [4cd735a4-9660-4432-b77d-e8572cb698e8] Completed 200 OK in 20ms (Views: 3.6ms)
+I, [2018-06-04T17:56:21.646775 #21151]  INFO -- : [ffb4b7a3-002b-4dc9-a9a2-65cc154ce32a] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:21 +0200
+I, [2018-06-04T17:56:21.647799 #21151]  INFO -- : [ffb4b7a3-002b-4dc9-a9a2-65cc154ce32a] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T17:56:21.649051 #21151]  INFO -- : [c7351dd8-fa58-4f67-afe4-3ad406e05395] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:21 +0200
+I, [2018-06-04T17:56:21.650016 #21151]  INFO -- : [c7351dd8-fa58-4f67-afe4-3ad406e05395] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:56:21.652139 #21151] DEBUG -- : [ffb4b7a3-002b-4dc9-a9a2-65cc154ce32a]   [1m[36mPpProgram Load (0.7ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:21 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:21.653933 #21151] DEBUG -- : [ffb4b7a3-002b-4dc9-a9a2-65cc154ce32a]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:21.655059 #21151] DEBUG -- : [c7351dd8-fa58-4f67-afe4-3ad406e05395]   [1m[36mPpCity Load (3.1ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:21.657568 #21151]  INFO -- : [c7351dd8-fa58-4f67-afe4-3ad406e05395] Completed 200 OK in 7ms (Views: 6.7ms)
+D, [2018-06-04T17:56:21.658894 #21151] DEBUG -- : [ffb4b7a3-002b-4dc9-a9a2-65cc154ce32a]   [1m[36mPpMarche Load (4.0ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:21.660271 #21151] DEBUG -- : [ffb4b7a3-002b-4dc9-a9a2-65cc154ce32a]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:21.661613 #21151] DEBUG -- : [ffb4b7a3-002b-4dc9-a9a2-65cc154ce32a]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:21.662915 #21151] DEBUG -- : [ffb4b7a3-002b-4dc9-a9a2-65cc154ce32a]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:21.664220 #21151] DEBUG -- : [ffb4b7a3-002b-4dc9-a9a2-65cc154ce32a]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:21.665599 #21151] DEBUG -- : [ffb4b7a3-002b-4dc9-a9a2-65cc154ce32a]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:21.669697 #21151]  INFO -- : [ffb4b7a3-002b-4dc9-a9a2-65cc154ce32a] Completed 200 OK in 22ms (Views: 3.5ms)
+I, [2018-06-04T17:56:22.403339 #21151]  INFO -- : [5a4d4629-286b-409a-887f-f27ca7c8c7f7] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:22 +0200
+I, [2018-06-04T17:56:22.404742 #21151]  INFO -- : [5a4d4629-286b-409a-887f-f27ca7c8c7f7] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T17:56:22.405799 #21151]  INFO -- : [a9b4cfd8-a3c7-41c9-af6b-024b4cd4a868] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:22 +0200
+I, [2018-06-04T17:56:22.406893 #21151]  INFO -- : [a9b4cfd8-a3c7-41c9-af6b-024b4cd4a868] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:56:22.409358 #21151] DEBUG -- : [5a4d4629-286b-409a-887f-f27ca7c8c7f7]   [1m[36mPpProgram Load (0.9ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:22 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:22.411247 #21151] DEBUG -- : [5a4d4629-286b-409a-887f-f27ca7c8c7f7]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:22.412205 #21151] DEBUG -- : [a9b4cfd8-a3c7-41c9-af6b-024b4cd4a868]   [1m[36mPpCity Load (3.1ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:22.420065 #21151]  INFO -- : [a9b4cfd8-a3c7-41c9-af6b-024b4cd4a868] Completed 200 OK in 13ms (Views: 12.2ms)
+D, [2018-06-04T17:56:22.421337 #21151] DEBUG -- : [5a4d4629-286b-409a-887f-f27ca7c8c7f7]   [1m[36mPpMarche Load (9.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:22.422651 #21151] DEBUG -- : [5a4d4629-286b-409a-887f-f27ca7c8c7f7]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:22.423718 #21151] DEBUG -- : [5a4d4629-286b-409a-887f-f27ca7c8c7f7]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:22.424783 #21151] DEBUG -- : [5a4d4629-286b-409a-887f-f27ca7c8c7f7]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:22.425865 #21151] DEBUG -- : [5a4d4629-286b-409a-887f-f27ca7c8c7f7]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:22.426956 #21151] DEBUG -- : [5a4d4629-286b-409a-887f-f27ca7c8c7f7]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:22.430634 #21151]  INFO -- : [5a4d4629-286b-409a-887f-f27ca7c8c7f7] Completed 200 OK in 26ms (Views: 3.2ms)
+I, [2018-06-04T17:56:22.433378 #21151]  INFO -- : [aef9ae75-ae22-4192-9def-8e8900784bb4] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:22 +0200
+I, [2018-06-04T17:56:22.434342 #21151]  INFO -- : [aef9ae75-ae22-4192-9def-8e8900784bb4] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:56:22.436113 #21151] DEBUG -- : [aef9ae75-ae22-4192-9def-8e8900784bb4]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:22 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:22.437649 #21151] DEBUG -- : [aef9ae75-ae22-4192-9def-8e8900784bb4]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:22.438560 #21151] DEBUG -- : [aef9ae75-ae22-4192-9def-8e8900784bb4]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:22.439432 #21151] DEBUG -- : [aef9ae75-ae22-4192-9def-8e8900784bb4]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:22.440302 #21151] DEBUG -- : [aef9ae75-ae22-4192-9def-8e8900784bb4]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:22.441178 #21151] DEBUG -- : [aef9ae75-ae22-4192-9def-8e8900784bb4]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:22.442012 #21151] DEBUG -- : [aef9ae75-ae22-4192-9def-8e8900784bb4]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:22.442817 #21151] DEBUG -- : [aef9ae75-ae22-4192-9def-8e8900784bb4]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:22.445872 #21151]  INFO -- : [aef9ae75-ae22-4192-9def-8e8900784bb4] Completed 200 OK in 11ms (Views: 2.7ms)
+I, [2018-06-04T17:56:22.803012 #21151]  INFO -- : [f4cb175a-cf5c-4bc1-91d9-8a9ad1a38fb6] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:22 +0200
+I, [2018-06-04T17:56:22.804306 #21151]  INFO -- : [f4cb175a-cf5c-4bc1-91d9-8a9ad1a38fb6] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:56:22.808809 #21151] DEBUG -- : [f4cb175a-cf5c-4bc1-91d9-8a9ad1a38fb6]   [1m[36mPpCity Load (2.5ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:22.811131 #21151]  INFO -- : [f4cb175a-cf5c-4bc1-91d9-8a9ad1a38fb6] Completed 200 OK in 7ms (Views: 5.7ms)
+I, [2018-06-04T17:56:23.512877 #21151]  INFO -- : [676a7070-0911-4bee-a446-c68ba6f66fa7] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:23 +0200
+I, [2018-06-04T17:56:23.513978 #21151]  INFO -- : [676a7070-0911-4bee-a446-c68ba6f66fa7] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T17:56:23.515069 #21151]  INFO -- : [32c1229b-53d0-416c-b871-f738ea782c7e] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:23 +0200
+I, [2018-06-04T17:56:23.515832 #21151]  INFO -- : [32c1229b-53d0-416c-b871-f738ea782c7e] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:56:23.523430 #21151] DEBUG -- : [32c1229b-53d0-416c-b871-f738ea782c7e]   [1m[36mPpCity Load (6.1ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:23.525027 #21151]  INFO -- : [32c1229b-53d0-416c-b871-f738ea782c7e] Completed 200 OK in 9ms (Views: 8.5ms)
+D, [2018-06-04T17:56:23.525910 #21151] DEBUG -- : [676a7070-0911-4bee-a446-c68ba6f66fa7]   [1m[36mPpProgram Load (8.9ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:23 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:23.527249 #21151] DEBUG -- : [676a7070-0911-4bee-a446-c68ba6f66fa7]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:23.528072 #21151] DEBUG -- : [676a7070-0911-4bee-a446-c68ba6f66fa7]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:23.528839 #21151] DEBUG -- : [676a7070-0911-4bee-a446-c68ba6f66fa7]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:23.529580 #21151] DEBUG -- : [676a7070-0911-4bee-a446-c68ba6f66fa7]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:23.530308 #21151] DEBUG -- : [676a7070-0911-4bee-a446-c68ba6f66fa7]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:23.531066 #21151] DEBUG -- : [676a7070-0911-4bee-a446-c68ba6f66fa7]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:23.531835 #21151] DEBUG -- : [676a7070-0911-4bee-a446-c68ba6f66fa7]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:23.534486 #21151]  INFO -- : [676a7070-0911-4bee-a446-c68ba6f66fa7] Completed 200 OK in 20ms (Views: 2.3ms)
+I, [2018-06-04T17:56:23.593221 #21151]  INFO -- : [2cad6a02-9f6c-4909-a4eb-2be411e5c268] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:23 +0200
+I, [2018-06-04T17:56:23.594372 #21151]  INFO -- : [2cad6a02-9f6c-4909-a4eb-2be411e5c268] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T17:56:23.596132 #21151]  INFO -- : [cea6b3af-833a-49d9-9073-0a71fc7c0550] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:23 +0200
+I, [2018-06-04T17:56:23.597166 #21151]  INFO -- : [cea6b3af-833a-49d9-9073-0a71fc7c0550] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:56:23.599788 #21151] DEBUG -- : [cea6b3af-833a-49d9-9073-0a71fc7c0550]   [1m[36mPpProgram Load (0.6ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:23 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:23.601584 #21151] DEBUG -- : [2cad6a02-9f6c-4909-a4eb-2be411e5c268]   [1m[36mPpCity Load (2.9ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:23.610609 #21151]  INFO -- : [2cad6a02-9f6c-4909-a4eb-2be411e5c268] Completed 200 OK in 9ms (Views: 8.4ms)
+D, [2018-06-04T17:56:23.611819 #21151] DEBUG -- : [cea6b3af-833a-49d9-9073-0a71fc7c0550]   [1m[36mPpMarche Load (10.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:23.613179 #21151] DEBUG -- : [cea6b3af-833a-49d9-9073-0a71fc7c0550]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:23.614220 #21151] DEBUG -- : [cea6b3af-833a-49d9-9073-0a71fc7c0550]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:23.615183 #21151] DEBUG -- : [cea6b3af-833a-49d9-9073-0a71fc7c0550]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:23.616109 #21151] DEBUG -- : [cea6b3af-833a-49d9-9073-0a71fc7c0550]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:23.617038 #21151] DEBUG -- : [cea6b3af-833a-49d9-9073-0a71fc7c0550]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:23.618030 #21151] DEBUG -- : [cea6b3af-833a-49d9-9073-0a71fc7c0550]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:23.621073 #21151]  INFO -- : [cea6b3af-833a-49d9-9073-0a71fc7c0550] Completed 200 OK in 24ms (Views: 2.6ms)
+I, [2018-06-04T17:56:24.234236 #21151]  INFO -- : [a51a7b07-a22a-4b84-817a-5421fcb742a3] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:24 +0200
+I, [2018-06-04T17:56:24.235400 #21151]  INFO -- : [a51a7b07-a22a-4b84-817a-5421fcb742a3] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T17:56:24.236704 #21151]  INFO -- : [16a5d2e2-9440-4d3c-8aa6-e184a0a571c3] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:24 +0200
+I, [2018-06-04T17:56:24.237684 #21151]  INFO -- : [16a5d2e2-9440-4d3c-8aa6-e184a0a571c3] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:56:24.240240 #21151] DEBUG -- : [a51a7b07-a22a-4b84-817a-5421fcb742a3]   [1m[36mPpProgram Load (0.8ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:24 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:24.242295 #21151] DEBUG -- : [a51a7b07-a22a-4b84-817a-5421fcb742a3]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:24.243338 #21151] DEBUG -- : [16a5d2e2-9440-4d3c-8aa6-e184a0a571c3]   [1m[36mPpCity Load (3.4ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:24.245710 #21151]  INFO -- : [16a5d2e2-9440-4d3c-8aa6-e184a0a571c3] Completed 200 OK in 8ms (Views: 7.0ms)
+D, [2018-06-04T17:56:24.246999 #21151] DEBUG -- : [a51a7b07-a22a-4b84-817a-5421fcb742a3]   [1m[36mPpMarche Load (3.9ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:24.248416 #21151] DEBUG -- : [a51a7b07-a22a-4b84-817a-5421fcb742a3]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:24.249704 #21151] DEBUG -- : [a51a7b07-a22a-4b84-817a-5421fcb742a3]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:24.250828 #21151] DEBUG -- : [a51a7b07-a22a-4b84-817a-5421fcb742a3]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:24.251995 #21151] DEBUG -- : [a51a7b07-a22a-4b84-817a-5421fcb742a3]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:24.253170 #21151] DEBUG -- : [a51a7b07-a22a-4b84-817a-5421fcb742a3]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:24.256733 #21151]  INFO -- : [a51a7b07-a22a-4b84-817a-5421fcb742a3] Completed 200 OK in 21ms (Views: 3.0ms)
+I, [2018-06-04T17:56:24.276287 #21151]  INFO -- : [71284d21-8229-43c6-9b24-eb10405a8ebe] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:24 +0200
+I, [2018-06-04T17:56:24.277227 #21151]  INFO -- : [71284d21-8229-43c6-9b24-eb10405a8ebe] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T17:56:24.278350 #21151]  INFO -- : [9208166f-2a4b-4aa6-951b-8629e458ccdb] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:24 +0200
+I, [2018-06-04T17:56:24.279068 #21151]  INFO -- : [9208166f-2a4b-4aa6-951b-8629e458ccdb] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:56:24.280796 #21151] DEBUG -- : [71284d21-8229-43c6-9b24-eb10405a8ebe]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:24 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:24.282153 #21151] DEBUG -- : [71284d21-8229-43c6-9b24-eb10405a8ebe]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:24.282834 #21151] DEBUG -- : [9208166f-2a4b-4aa6-951b-8629e458ccdb]   [1m[36mPpCity Load (2.2ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:24.284504 #21151]  INFO -- : [9208166f-2a4b-4aa6-951b-8629e458ccdb] Completed 200 OK in 5ms (Views: 4.8ms)
+D, [2018-06-04T17:56:24.285382 #21151] DEBUG -- : [71284d21-8229-43c6-9b24-eb10405a8ebe]   [1m[36mPpMarche Load (2.7ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:24.286419 #21151] DEBUG -- : [71284d21-8229-43c6-9b24-eb10405a8ebe]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:24.287279 #21151] DEBUG -- : [71284d21-8229-43c6-9b24-eb10405a8ebe]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:24.288176 #21151] DEBUG -- : [71284d21-8229-43c6-9b24-eb10405a8ebe]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:24.289024 #21151] DEBUG -- : [71284d21-8229-43c6-9b24-eb10405a8ebe]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:24.289880 #21151] DEBUG -- : [71284d21-8229-43c6-9b24-eb10405a8ebe]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:24.292724 #21151]  INFO -- : [71284d21-8229-43c6-9b24-eb10405a8ebe] Completed 200 OK in 15ms (Views: 2.5ms)
+I, [2018-06-04T17:56:24.981952 #21151]  INFO -- : [d34c855e-efc0-4e6a-bae4-247c5eea0bb1] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:24 +0200
+I, [2018-06-04T17:56:24.982573 #21151]  INFO -- : [d34c855e-efc0-4e6a-bae4-247c5eea0bb1] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T17:56:24.983010 #21151]  INFO -- : [1b9cb195-8996-4b17-9807-6454f5da80a4] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:24 +0200
+I, [2018-06-04T17:56:24.984027 #21151]  INFO -- : [1b9cb195-8996-4b17-9807-6454f5da80a4] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:56:24.985055 #21151] DEBUG -- : [1b9cb195-8996-4b17-9807-6454f5da80a4]   [1m[36mPpProgram Load (0.3ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:24 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:24.986040 #21151] DEBUG -- : [d34c855e-efc0-4e6a-bae4-247c5eea0bb1]   [1m[36mPpCity Load (1.4ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:24.988409 #21151]  INFO -- : [d34c855e-efc0-4e6a-bae4-247c5eea0bb1] Completed 200 OK in 5ms (Views: 4.8ms)
+D, [2018-06-04T17:56:24.990490 #21151] DEBUG -- : [1b9cb195-8996-4b17-9807-6454f5da80a4]   [1m[36mPpMarche Load (0.7ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+I, [2018-06-04T17:56:24.991915 #21151]  INFO -- : [c8b3d121-c40d-411b-bd41-94fbed91de98] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:24 +0200
+I, [2018-06-04T17:56:24.993060 #21151]  INFO -- : [c8b3d121-c40d-411b-bd41-94fbed91de98] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:56:24.995469 #21151] DEBUG -- : [1b9cb195-8996-4b17-9807-6454f5da80a4]   [1m[36mPpMarche Load (4.1ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:24.996766 #21151] DEBUG -- : [1b9cb195-8996-4b17-9807-6454f5da80a4]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:24.997654 #21151] DEBUG -- : [c8b3d121-c40d-411b-bd41-94fbed91de98]   [1m[36mPpCity Load (2.8ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:24.999626 #21151]  INFO -- : [c8b3d121-c40d-411b-bd41-94fbed91de98] Completed 200 OK in 6ms (Views: 5.5ms)
+D, [2018-06-04T17:56:25.000620 #21151] DEBUG -- : [1b9cb195-8996-4b17-9807-6454f5da80a4]   [1m[36mPpMarche Load (3.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:25.001796 #21151] DEBUG -- : [1b9cb195-8996-4b17-9807-6454f5da80a4]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:25.002912 #21151] DEBUG -- : [1b9cb195-8996-4b17-9807-6454f5da80a4]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:25.004090 #21151] DEBUG -- : [1b9cb195-8996-4b17-9807-6454f5da80a4]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:25.008006 #21151]  INFO -- : [1b9cb195-8996-4b17-9807-6454f5da80a4] Completed 200 OK in 24ms (Views: 3.4ms)
+I, [2018-06-04T17:56:25.010885 #21151]  INFO -- : [3a824058-37fe-42e2-b9ea-3e64109ea547] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:25 +0200
+I, [2018-06-04T17:56:25.011858 #21151]  INFO -- : [3a824058-37fe-42e2-b9ea-3e64109ea547] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:56:25.013657 #21151] DEBUG -- : [3a824058-37fe-42e2-b9ea-3e64109ea547]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:25 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:25.015308 #21151] DEBUG -- : [3a824058-37fe-42e2-b9ea-3e64109ea547]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:25.016402 #21151] DEBUG -- : [3a824058-37fe-42e2-b9ea-3e64109ea547]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:25.017373 #21151] DEBUG -- : [3a824058-37fe-42e2-b9ea-3e64109ea547]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:25.018414 #21151] DEBUG -- : [3a824058-37fe-42e2-b9ea-3e64109ea547]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:25.019420 #21151] DEBUG -- : [3a824058-37fe-42e2-b9ea-3e64109ea547]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:25.020492 #21151] DEBUG -- : [3a824058-37fe-42e2-b9ea-3e64109ea547]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:25.021590 #21151] DEBUG -- : [3a824058-37fe-42e2-b9ea-3e64109ea547]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:25.024734 #21151]  INFO -- : [3a824058-37fe-42e2-b9ea-3e64109ea547] Completed 200 OK in 13ms (Views: 2.7ms)
+I, [2018-06-04T17:56:25.659775 #21151]  INFO -- : [c5376f3c-2e83-4439-a45a-4516f29075f9] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:25 +0200
+I, [2018-06-04T17:56:25.661216 #21151]  INFO -- : [c5376f3c-2e83-4439-a45a-4516f29075f9] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T17:56:25.662852 #21151]  INFO -- : [8171d12c-5c88-4f93-9b48-6f401238098e] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:25 +0200
+I, [2018-06-04T17:56:25.664065 #21151]  INFO -- : [8171d12c-5c88-4f93-9b48-6f401238098e] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:56:25.666905 #21151] DEBUG -- : [c5376f3c-2e83-4439-a45a-4516f29075f9]   [1m[36mPpProgram Load (0.9ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:25 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:25.669133 #21151] DEBUG -- : [c5376f3c-2e83-4439-a45a-4516f29075f9]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:25.670335 #21151] DEBUG -- : [8171d12c-5c88-4f93-9b48-6f401238098e]   [1m[36mPpCity Load (3.7ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:25.672777 #21151]  INFO -- : [8171d12c-5c88-4f93-9b48-6f401238098e] Completed 200 OK in 8ms (Views: 7.6ms)
+D, [2018-06-04T17:56:25.674140 #21151] DEBUG -- : [c5376f3c-2e83-4439-a45a-4516f29075f9]   [1m[36mPpMarche Load (4.1ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:25.675392 #21151] DEBUG -- : [c5376f3c-2e83-4439-a45a-4516f29075f9]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:25.676643 #21151] DEBUG -- : [c5376f3c-2e83-4439-a45a-4516f29075f9]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:25.677819 #21151] DEBUG -- : [c5376f3c-2e83-4439-a45a-4516f29075f9]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:25.679039 #21151] DEBUG -- : [c5376f3c-2e83-4439-a45a-4516f29075f9]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:25.680213 #21151] DEBUG -- : [c5376f3c-2e83-4439-a45a-4516f29075f9]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:25.684184 #21151]  INFO -- : [c5376f3c-2e83-4439-a45a-4516f29075f9] Completed 200 OK in 23ms (Views: 3.4ms)
+I, [2018-06-04T17:56:25.687357 #21151]  INFO -- : [40c6330e-307b-446c-ad22-f26bbb38c130] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:25 +0200
+I, [2018-06-04T17:56:25.688447 #21151]  INFO -- : [40c6330e-307b-446c-ad22-f26bbb38c130] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:56:25.690479 #21151] DEBUG -- : [40c6330e-307b-446c-ad22-f26bbb38c130]   [1m[36mPpProgram Load (0.6ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:25 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:25.692154 #21151] DEBUG -- : [40c6330e-307b-446c-ad22-f26bbb38c130]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:25.693299 #21151] DEBUG -- : [40c6330e-307b-446c-ad22-f26bbb38c130]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:25.694355 #21151] DEBUG -- : [40c6330e-307b-446c-ad22-f26bbb38c130]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:25.695423 #21151] DEBUG -- : [40c6330e-307b-446c-ad22-f26bbb38c130]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:25.696502 #21151] DEBUG -- : [40c6330e-307b-446c-ad22-f26bbb38c130]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:25.697461 #21151] DEBUG -- : [40c6330e-307b-446c-ad22-f26bbb38c130]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:25.698389 #21151] DEBUG -- : [40c6330e-307b-446c-ad22-f26bbb38c130]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:25.702844 #21151]  INFO -- : [40c6330e-307b-446c-ad22-f26bbb38c130] Completed 200 OK in 14ms (Views: 4.0ms)
+I, [2018-06-04T17:56:25.717464 #21151]  INFO -- : [42b69278-f654-48bc-91b0-e4c51568e66e] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:25 +0200
+I, [2018-06-04T17:56:25.718351 #21151]  INFO -- : [42b69278-f654-48bc-91b0-e4c51568e66e] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:56:25.721726 #21151] DEBUG -- : [42b69278-f654-48bc-91b0-e4c51568e66e]   [1m[36mPpCity Load (2.0ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:25.723292 #21151]  INFO -- : [42b69278-f654-48bc-91b0-e4c51568e66e] Completed 200 OK in 5ms (Views: 4.2ms)
+I, [2018-06-04T17:56:26.310977 #21151]  INFO -- : [62bb6b8f-8204-433f-91d5-87ed58735805] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:26 +0200
+I, [2018-06-04T17:56:26.312194 #21151]  INFO -- : [62bb6b8f-8204-433f-91d5-87ed58735805] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T17:56:26.315087 #21151]  INFO -- : [b32fc61b-73dd-4696-8702-c8ba4410d5de] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:26 +0200
+I, [2018-06-04T17:56:26.316159 #21151]  INFO -- : [b32fc61b-73dd-4696-8702-c8ba4410d5de] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:56:26.318860 #21151] DEBUG -- : [b32fc61b-73dd-4696-8702-c8ba4410d5de]   [1m[36mPpProgram Load (0.7ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:26 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:26.320467 #21151] DEBUG -- : [62bb6b8f-8204-433f-91d5-87ed58735805]   [1m[36mPpCity Load (2.8ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:26.322412 #21151]  INFO -- : [62bb6b8f-8204-433f-91d5-87ed58735805] Completed 200 OK in 10ms (Views: 9.2ms)
+D, [2018-06-04T17:56:26.323417 #21151] DEBUG -- : [b32fc61b-73dd-4696-8702-c8ba4410d5de]   [1m[36mPpMarche Load (3.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:26.324472 #21151] DEBUG -- : [b32fc61b-73dd-4696-8702-c8ba4410d5de]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:26.325501 #21151] DEBUG -- : [b32fc61b-73dd-4696-8702-c8ba4410d5de]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:26.326479 #21151] DEBUG -- : [b32fc61b-73dd-4696-8702-c8ba4410d5de]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:26.327461 #21151] DEBUG -- : [b32fc61b-73dd-4696-8702-c8ba4410d5de]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:26.328394 #21151] DEBUG -- : [b32fc61b-73dd-4696-8702-c8ba4410d5de]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:26.329347 #21151] DEBUG -- : [b32fc61b-73dd-4696-8702-c8ba4410d5de]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:26.332494 #21151]  INFO -- : [b32fc61b-73dd-4696-8702-c8ba4410d5de] Completed 200 OK in 16ms (Views: 2.7ms)
+I, [2018-06-04T17:56:26.488380 #21151]  INFO -- : [e8de3d26-6500-4ff7-bf3e-5a99a4a32ee7] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:26 +0200
+I, [2018-06-04T17:56:26.489347 #21151]  INFO -- : [e8de3d26-6500-4ff7-bf3e-5a99a4a32ee7] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T17:56:26.491238 #21151]  INFO -- : [e6ec2628-d4a3-4011-9b4d-455a41c89be7] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:26 +0200
+I, [2018-06-04T17:56:26.492305 #21151]  INFO -- : [e6ec2628-d4a3-4011-9b4d-455a41c89be7] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:56:26.494947 #21151] DEBUG -- : [e6ec2628-d4a3-4011-9b4d-455a41c89be7]   [1m[36mPpProgram Load (0.6ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:26 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:26.496667 #21151] DEBUG -- : [e8de3d26-6500-4ff7-bf3e-5a99a4a32ee7]   [1m[36mPpCity Load (2.9ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:26.499034 #21151]  INFO -- : [e8de3d26-6500-4ff7-bf3e-5a99a4a32ee7] Completed 200 OK in 9ms (Views: 8.6ms)
+D, [2018-06-04T17:56:26.500050 #21151] DEBUG -- : [e6ec2628-d4a3-4011-9b4d-455a41c89be7]   [1m[36mPpMarche Load (3.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:26.501623 #21151] DEBUG -- : [e6ec2628-d4a3-4011-9b4d-455a41c89be7]   [1m[36mPpMarche Load (0.8ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:26.502927 #21151] DEBUG -- : [e6ec2628-d4a3-4011-9b4d-455a41c89be7]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:26.504041 #21151] DEBUG -- : [e6ec2628-d4a3-4011-9b4d-455a41c89be7]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:26.505155 #21151] DEBUG -- : [e6ec2628-d4a3-4011-9b4d-455a41c89be7]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:26.508141 #21151] DEBUG -- : [e6ec2628-d4a3-4011-9b4d-455a41c89be7]   [1m[36mPpMarche Load (2.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:26.509395 #21151] DEBUG -- : [e6ec2628-d4a3-4011-9b4d-455a41c89be7]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:26.513254 #21151]  INFO -- : [e6ec2628-d4a3-4011-9b4d-455a41c89be7] Completed 200 OK in 21ms (Views: 3.2ms)
+I, [2018-06-04T17:56:26.959190 #21151]  INFO -- : [519a1cdb-a354-4ac7-92e5-19a4dc6c78d2] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:26 +0200
+I, [2018-06-04T17:56:26.959671 #21151]  INFO -- : [519a1cdb-a354-4ac7-92e5-19a4dc6c78d2] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T17:56:26.960707 #21151]  INFO -- : [acabb731-5370-4961-9032-8655e907ad58] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:26 +0200
+I, [2018-06-04T17:56:26.961083 #21151]  INFO -- : [acabb731-5370-4961-9032-8655e907ad58] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:56:26.961614 #21151] DEBUG -- : [519a1cdb-a354-4ac7-92e5-19a4dc6c78d2]   [1m[36mPpCity Load (1.2ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:26.963084 #21151]  INFO -- : [519a1cdb-a354-4ac7-92e5-19a4dc6c78d2] Completed 200 OK in 3ms (Views: 3.0ms)
+D, [2018-06-04T17:56:26.964310 #21151] DEBUG -- : [acabb731-5370-4961-9032-8655e907ad58]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:26 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:26.965676 #21151] DEBUG -- : [acabb731-5370-4961-9032-8655e907ad58]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:26.966537 #21151] DEBUG -- : [acabb731-5370-4961-9032-8655e907ad58]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:26.967302 #21151] DEBUG -- : [acabb731-5370-4961-9032-8655e907ad58]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:26.968088 #21151] DEBUG -- : [acabb731-5370-4961-9032-8655e907ad58]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:26.968853 #21151] DEBUG -- : [acabb731-5370-4961-9032-8655e907ad58]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:26.969644 #21151] DEBUG -- : [acabb731-5370-4961-9032-8655e907ad58]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:26.970395 #21151] DEBUG -- : [acabb731-5370-4961-9032-8655e907ad58]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:26.972955 #21151]  INFO -- : [acabb731-5370-4961-9032-8655e907ad58] Completed 200 OK in 12ms (Views: 2.2ms)
+I, [2018-06-04T17:56:26.973689 #21151]  INFO -- : [a7185efa-085b-4bc2-848e-21588bb20f75] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:56:26 +0200
+I, [2018-06-04T17:56:26.974227 #21151]  INFO -- : [a7185efa-085b-4bc2-848e-21588bb20f75] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:56:26.976402 #21151] DEBUG -- : [a7185efa-085b-4bc2-848e-21588bb20f75]   [1m[36mPpCity Load (1.1ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:56:26.977318 #21151]  INFO -- : [a7185efa-085b-4bc2-848e-21588bb20f75] Completed 200 OK in 3ms (Views: 2.6ms)
+I, [2018-06-04T17:56:27.007854 #21151]  INFO -- : [d25045cb-7d07-4d3e-9b5d-1a36f0e026c2] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:56:27 +0200
+I, [2018-06-04T17:56:27.008368 #21151]  INFO -- : [d25045cb-7d07-4d3e-9b5d-1a36f0e026c2] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:56:27.009352 #21151] DEBUG -- : [d25045cb-7d07-4d3e-9b5d-1a36f0e026c2]   [1m[36mPpProgram Load (0.3ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:56:27 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:56:27.010176 #21151] DEBUG -- : [d25045cb-7d07-4d3e-9b5d-1a36f0e026c2]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:27.010693 #21151] DEBUG -- : [d25045cb-7d07-4d3e-9b5d-1a36f0e026c2]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:56:27.011139 #21151] DEBUG -- : [d25045cb-7d07-4d3e-9b5d-1a36f0e026c2]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:27.011589 #21151] DEBUG -- : [d25045cb-7d07-4d3e-9b5d-1a36f0e026c2]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:56:27.012051 #21151] DEBUG -- : [d25045cb-7d07-4d3e-9b5d-1a36f0e026c2]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:56:27.012444 #21151] DEBUG -- : [d25045cb-7d07-4d3e-9b5d-1a36f0e026c2]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:56:27.012811 #21151] DEBUG -- : [d25045cb-7d07-4d3e-9b5d-1a36f0e026c2]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:56:27.014257 #21151]  INFO -- : [d25045cb-7d07-4d3e-9b5d-1a36f0e026c2] Completed 200 OK in 6ms (Views: 1.3ms)
+I, [2018-06-04T17:58:37.215780 #21151]  INFO -- : [6b41a6f8-9654-4264-833e-9079214658f3] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:58:37 +0200
+I, [2018-06-04T17:58:37.216936 #21151]  INFO -- : [6b41a6f8-9654-4264-833e-9079214658f3] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T17:58:37.219543 #21151]  INFO -- : [57d4a99e-14c9-48a5-9a9a-244fad882692] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:58:37 +0200
+I, [2018-06-04T17:58:37.220769 #21151]  INFO -- : [57d4a99e-14c9-48a5-9a9a-244fad882692] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:58:37.223143 #21151] DEBUG -- : [57d4a99e-14c9-48a5-9a9a-244fad882692]   [1m[36mPpProgram Load (0.6ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:58:37 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:58:37.224580 #21151] DEBUG -- : [6b41a6f8-9654-4264-833e-9079214658f3]   [1m[36mPpCity Load (5.6ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:58:37.227042 #21151]  INFO -- : [6b41a6f8-9654-4264-833e-9079214658f3] Completed 200 OK in 10ms (Views: 8.9ms)
+D, [2018-06-04T17:58:37.228773 #21151] DEBUG -- : [57d4a99e-14c9-48a5-9a9a-244fad882692]   [1m[36mPpMarche Load (0.7ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:58:37.230194 #21151] DEBUG -- : [57d4a99e-14c9-48a5-9a9a-244fad882692]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:58:37.231368 #21151] DEBUG -- : [57d4a99e-14c9-48a5-9a9a-244fad882692]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+I, [2018-06-04T17:58:37.232933 #21151]  INFO -- : [0d4d24fd-576f-47bf-a495-aef6cc282674] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:58:37 +0200
+I, [2018-06-04T17:58:37.234083 #21151]  INFO -- : [0d4d24fd-576f-47bf-a495-aef6cc282674] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:58:37.235395 #21151] DEBUG -- : [57d4a99e-14c9-48a5-9a9a-244fad882692]   [1m[36mPpMarche Load (3.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:58:37.236721 #21151] DEBUG -- : [57d4a99e-14c9-48a5-9a9a-244fad882692]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:58:37.237916 #21151] DEBUG -- : [57d4a99e-14c9-48a5-9a9a-244fad882692]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:58:37.239100 #21151] DEBUG -- : [0d4d24fd-576f-47bf-a495-aef6cc282674]   [1m[36mPpCity Load (2.5ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:58:37.241102 #21151]  INFO -- : [0d4d24fd-576f-47bf-a495-aef6cc282674] Completed 200 OK in 7ms (Views: 6.1ms)
+D, [2018-06-04T17:58:37.242124 #21151] DEBUG -- : [57d4a99e-14c9-48a5-9a9a-244fad882692]   [1m[36mPpMarche Load (3.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:58:37.245492 #21151]  INFO -- : [57d4a99e-14c9-48a5-9a9a-244fad882692] Completed 200 OK in 24ms (Views: 2.9ms)
+I, [2018-06-04T17:58:37.258406 #21151]  INFO -- : [89843149-ab12-4478-b46f-5cef70756e2c] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:58:37 +0200
+I, [2018-06-04T17:58:37.259269 #21151]  INFO -- : [89843149-ab12-4478-b46f-5cef70756e2c] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:58:37.261034 #21151] DEBUG -- : [89843149-ab12-4478-b46f-5cef70756e2c]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:58:37 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:58:37.262650 #21151] DEBUG -- : [89843149-ab12-4478-b46f-5cef70756e2c]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:58:37.263636 #21151] DEBUG -- : [89843149-ab12-4478-b46f-5cef70756e2c]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:58:37.264536 #21151] DEBUG -- : [89843149-ab12-4478-b46f-5cef70756e2c]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:58:37.265350 #21151] DEBUG -- : [89843149-ab12-4478-b46f-5cef70756e2c]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:58:37.266243 #21151] DEBUG -- : [89843149-ab12-4478-b46f-5cef70756e2c]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:58:37.267215 #21151] DEBUG -- : [89843149-ab12-4478-b46f-5cef70756e2c]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:58:37.268117 #21151] DEBUG -- : [89843149-ab12-4478-b46f-5cef70756e2c]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:58:37.271074 #21151]  INFO -- : [89843149-ab12-4478-b46f-5cef70756e2c] Completed 200 OK in 12ms (Views: 2.6ms)
+I, [2018-06-04T17:58:37.398462 #21151]  INFO -- : [bbee627d-3af5-4366-bf98-f248489f45fd] Started GET "/api/catalog/sans_image_marche.png" for 192.168.1.244 at 2018-06-04 17:58:37 +0200
+F, [2018-06-04T17:58:37.399339 #21151] FATAL -- : [bbee627d-3af5-4366-bf98-f248489f45fd]   
+F, [2018-06-04T17:58:37.399412 #21151] FATAL -- : [bbee627d-3af5-4366-bf98-f248489f45fd] ActionController::RoutingError (No route matches [GET] "/api/catalog/sans_image_marche.png"):
+F, [2018-06-04T17:58:37.399451 #21151] FATAL -- : [bbee627d-3af5-4366-bf98-f248489f45fd]   
+F, [2018-06-04T17:58:37.399497 #21151] FATAL -- : [bbee627d-3af5-4366-bf98-f248489f45fd] actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+[bbee627d-3af5-4366-bf98-f248489f45fd] railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[bbee627d-3af5-4366-bf98-f248489f45fd] activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+[bbee627d-3af5-4366-bf98-f248489f45fd] activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+[bbee627d-3af5-4366-bf98-f248489f45fd] railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] railties (5.1.6) lib/rails/engine.rb:522:in `call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+[bbee627d-3af5-4366-bf98-f248489f45fd] puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+[bbee627d-3af5-4366-bf98-f248489f45fd] puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+[bbee627d-3af5-4366-bf98-f248489f45fd] puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+[bbee627d-3af5-4366-bf98-f248489f45fd] puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+I, [2018-06-04T17:58:37.636870 #21151]  INFO -- : [6790bc1c-8471-44e6-8578-d8f97b6156c9] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:58:37 +0200
+I, [2018-06-04T17:58:37.638055 #21151]  INFO -- : [6790bc1c-8471-44e6-8578-d8f97b6156c9] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T17:58:37.639660 #21151]  INFO -- : [4e3a47db-d6d8-445a-9312-ccf731a31ebf] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:58:37 +0200
+I, [2018-06-04T17:58:37.640615 #21151]  INFO -- : [4e3a47db-d6d8-445a-9312-ccf731a31ebf] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:58:37.642902 #21151] DEBUG -- : [4e3a47db-d6d8-445a-9312-ccf731a31ebf]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:58:37 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:58:37.644339 #21151] DEBUG -- : [6790bc1c-8471-44e6-8578-d8f97b6156c9]   [1m[36mPpCity Load (2.4ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:58:37.646252 #21151]  INFO -- : [6790bc1c-8471-44e6-8578-d8f97b6156c9] Completed 200 OK in 8ms (Views: 7.3ms)
+D, [2018-06-04T17:58:37.647296 #21151] DEBUG -- : [4e3a47db-d6d8-445a-9312-ccf731a31ebf]   [1m[36mPpMarche Load (3.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:58:37.648424 #21151] DEBUG -- : [4e3a47db-d6d8-445a-9312-ccf731a31ebf]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:58:37.649559 #21151] DEBUG -- : [4e3a47db-d6d8-445a-9312-ccf731a31ebf]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:58:37.650452 #21151] DEBUG -- : [4e3a47db-d6d8-445a-9312-ccf731a31ebf]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:58:37.651330 #21151] DEBUG -- : [4e3a47db-d6d8-445a-9312-ccf731a31ebf]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:58:37.652274 #21151] DEBUG -- : [4e3a47db-d6d8-445a-9312-ccf731a31ebf]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:58:37.653167 #21151] DEBUG -- : [4e3a47db-d6d8-445a-9312-ccf731a31ebf]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:58:37.656058 #21151]  INFO -- : [4e3a47db-d6d8-445a-9312-ccf731a31ebf] Completed 200 OK in 15ms (Views: 2.5ms)
+I, [2018-06-04T17:58:37.660356 #21151]  INFO -- : [832d9d72-ee34-4d57-9f64-6055a5d99e90] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:58:37 +0200
+I, [2018-06-04T17:58:37.661210 #21151]  INFO -- : [832d9d72-ee34-4d57-9f64-6055a5d99e90] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T17:58:37.662254 #21151]  INFO -- : [c841d55d-1e88-4117-a1e8-47187c6ee4d9] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:58:37 +0200
+I, [2018-06-04T17:58:37.662953 #21151]  INFO -- : [c841d55d-1e88-4117-a1e8-47187c6ee4d9] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:58:37.664655 #21151] DEBUG -- : [832d9d72-ee34-4d57-9f64-6055a5d99e90]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:58:37 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:58:37.665987 #21151] DEBUG -- : [832d9d72-ee34-4d57-9f64-6055a5d99e90]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:58:37.666634 #21151] DEBUG -- : [c841d55d-1e88-4117-a1e8-47187c6ee4d9]   [1m[36mPpCity Load (2.2ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:58:37.668124 #21151]  INFO -- : [c841d55d-1e88-4117-a1e8-47187c6ee4d9] Completed 200 OK in 5ms (Views: 4.5ms)
+D, [2018-06-04T17:58:37.668898 #21151] DEBUG -- : [832d9d72-ee34-4d57-9f64-6055a5d99e90]   [1m[36mPpMarche Load (2.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:58:37.669795 #21151] DEBUG -- : [832d9d72-ee34-4d57-9f64-6055a5d99e90]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:58:37.670584 #21151] DEBUG -- : [832d9d72-ee34-4d57-9f64-6055a5d99e90]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:58:37.671361 #21151] DEBUG -- : [832d9d72-ee34-4d57-9f64-6055a5d99e90]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:58:37.672148 #21151] DEBUG -- : [832d9d72-ee34-4d57-9f64-6055a5d99e90]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:58:37.672992 #21151] DEBUG -- : [832d9d72-ee34-4d57-9f64-6055a5d99e90]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:58:37.675563 #21151]  INFO -- : [832d9d72-ee34-4d57-9f64-6055a5d99e90] Completed 200 OK in 14ms (Views: 2.2ms)
+I, [2018-06-04T17:58:37.728329 #21151]  INFO -- : [b832b293-d81c-4489-a929-d215027d8bc8] Started GET "/api/catalog/sans_image_marche.png" for 192.168.1.244 at 2018-06-04 17:58:37 +0200
+F, [2018-06-04T17:58:37.728804 #21151] FATAL -- : [b832b293-d81c-4489-a929-d215027d8bc8]   
+F, [2018-06-04T17:58:37.728842 #21151] FATAL -- : [b832b293-d81c-4489-a929-d215027d8bc8] ActionController::RoutingError (No route matches [GET] "/api/catalog/sans_image_marche.png"):
+F, [2018-06-04T17:58:37.728861 #21151] FATAL -- : [b832b293-d81c-4489-a929-d215027d8bc8]   
+F, [2018-06-04T17:58:37.728884 #21151] FATAL -- : [b832b293-d81c-4489-a929-d215027d8bc8] actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[b832b293-d81c-4489-a929-d215027d8bc8] actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[b832b293-d81c-4489-a929-d215027d8bc8] railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+[b832b293-d81c-4489-a929-d215027d8bc8] railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+[b832b293-d81c-4489-a929-d215027d8bc8] activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[b832b293-d81c-4489-a929-d215027d8bc8] activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+[b832b293-d81c-4489-a929-d215027d8bc8] activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+[b832b293-d81c-4489-a929-d215027d8bc8] railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+[b832b293-d81c-4489-a929-d215027d8bc8] actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[b832b293-d81c-4489-a929-d215027d8bc8] actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[b832b293-d81c-4489-a929-d215027d8bc8] rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+[b832b293-d81c-4489-a929-d215027d8bc8] rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+[b832b293-d81c-4489-a929-d215027d8bc8] activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[b832b293-d81c-4489-a929-d215027d8bc8] actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[b832b293-d81c-4489-a929-d215027d8bc8] rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+[b832b293-d81c-4489-a929-d215027d8bc8] railties (5.1.6) lib/rails/engine.rb:522:in `call'
+[b832b293-d81c-4489-a929-d215027d8bc8] puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+[b832b293-d81c-4489-a929-d215027d8bc8] puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+[b832b293-d81c-4489-a929-d215027d8bc8] puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+[b832b293-d81c-4489-a929-d215027d8bc8] puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+[b832b293-d81c-4489-a929-d215027d8bc8] puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+I, [2018-06-04T17:58:37.925415 #21151]  INFO -- : [6932b7ee-c891-4537-95f4-4cd897f0ff3e] Started GET "/api/catalog/sans_image_marche.png" for 192.168.1.244 at 2018-06-04 17:58:37 +0200
+F, [2018-06-04T17:58:37.926207 #21151] FATAL -- : [6932b7ee-c891-4537-95f4-4cd897f0ff3e]   
+F, [2018-06-04T17:58:37.926269 #21151] FATAL -- : [6932b7ee-c891-4537-95f4-4cd897f0ff3e] ActionController::RoutingError (No route matches [GET] "/api/catalog/sans_image_marche.png"):
+F, [2018-06-04T17:58:37.926305 #21151] FATAL -- : [6932b7ee-c891-4537-95f4-4cd897f0ff3e]   
+F, [2018-06-04T17:58:37.926345 #21151] FATAL -- : [6932b7ee-c891-4537-95f4-4cd897f0ff3e] actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] railties (5.1.6) lib/rails/engine.rb:522:in `call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+[6932b7ee-c891-4537-95f4-4cd897f0ff3e] puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+I, [2018-06-04T17:59:11.366352 #21151]  INFO -- : [2c4b1602-e3d7-40ed-988e-d6375beab74f] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:59:11 +0200
+I, [2018-06-04T17:59:11.366977 #21151]  INFO -- : [2c4b1602-e3d7-40ed-988e-d6375beab74f] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T17:59:11.367743 #21151]  INFO -- : [04abdf04-e8ab-4634-8eeb-342f2f914295] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:59:11 +0200
+I, [2018-06-04T17:59:11.368175 #21151]  INFO -- : [04abdf04-e8ab-4634-8eeb-342f2f914295] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:59:11.369248 #21151] DEBUG -- : [2c4b1602-e3d7-40ed-988e-d6375beab74f]   [1m[36mPpProgram Load (0.3ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:59:11 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:59:11.370113 #21151] DEBUG -- : [2c4b1602-e3d7-40ed-988e-d6375beab74f]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:59:11.370538 #21151] DEBUG -- : [04abdf04-e8ab-4634-8eeb-342f2f914295]   [1m[36mPpCity Load (1.4ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:59:11.371532 #21151]  INFO -- : [04abdf04-e8ab-4634-8eeb-342f2f914295] Completed 200 OK in 3ms (Views: 2.9ms)
+D, [2018-06-04T17:59:11.372112 #21151] DEBUG -- : [2c4b1602-e3d7-40ed-988e-d6375beab74f]   [1m[36mPpMarche Load (1.7ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:59:11.372727 #21151] DEBUG -- : [2c4b1602-e3d7-40ed-988e-d6375beab74f]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:59:11.373245 #21151] DEBUG -- : [2c4b1602-e3d7-40ed-988e-d6375beab74f]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:59:11.373785 #21151] DEBUG -- : [2c4b1602-e3d7-40ed-988e-d6375beab74f]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:59:11.374327 #21151] DEBUG -- : [2c4b1602-e3d7-40ed-988e-d6375beab74f]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:59:11.374870 #21151] DEBUG -- : [2c4b1602-e3d7-40ed-988e-d6375beab74f]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:59:11.376628 #21151]  INFO -- : [2c4b1602-e3d7-40ed-988e-d6375beab74f] Completed 200 OK in 10ms (Views: 1.5ms)
+I, [2018-06-04T17:59:11.377157 #21151]  INFO -- : [8617734d-8c01-4ee9-97f5-7aec5d9ba5ee] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 17:59:11 +0200
+I, [2018-06-04T17:59:11.377943 #21151]  INFO -- : [8617734d-8c01-4ee9-97f5-7aec5d9ba5ee] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T17:59:11.379946 #21151] DEBUG -- : [8617734d-8c01-4ee9-97f5-7aec5d9ba5ee]   [1m[36mPpCity Load (1.2ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T17:59:11.380909 #21151]  INFO -- : [8617734d-8c01-4ee9-97f5-7aec5d9ba5ee] Completed 200 OK in 3ms (Views: 2.5ms)
+I, [2018-06-04T17:59:11.384082 #21151]  INFO -- : [62afd75d-a099-4f17-854a-f7682e6f442f] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 17:59:11 +0200
+I, [2018-06-04T17:59:11.384607 #21151]  INFO -- : [62afd75d-a099-4f17-854a-f7682e6f442f] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T17:59:11.385629 #21151] DEBUG -- : [62afd75d-a099-4f17-854a-f7682e6f442f]   [1m[36mPpProgram Load (0.3ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 17:59:11 +0200' ) LIMIT 7[0m
+D, [2018-06-04T17:59:11.386282 #21151] DEBUG -- : [62afd75d-a099-4f17-854a-f7682e6f442f]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:59:11.386678 #21151] DEBUG -- : [62afd75d-a099-4f17-854a-f7682e6f442f]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T17:59:11.387055 #21151] DEBUG -- : [62afd75d-a099-4f17-854a-f7682e6f442f]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:59:11.387427 #21151] DEBUG -- : [62afd75d-a099-4f17-854a-f7682e6f442f]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T17:59:11.387791 #21151] DEBUG -- : [62afd75d-a099-4f17-854a-f7682e6f442f]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T17:59:11.388147 #21151] DEBUG -- : [62afd75d-a099-4f17-854a-f7682e6f442f]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T17:59:11.388496 #21151] DEBUG -- : [62afd75d-a099-4f17-854a-f7682e6f442f]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T17:59:11.389700 #21151]  INFO -- : [62afd75d-a099-4f17-854a-f7682e6f442f] Completed 200 OK in 5ms (Views: 1.0ms)
+I, [2018-06-04T17:59:11.446214 #21151]  INFO -- : [897cc218-ebd0-40e6-8e02-d513b6768fec] Started GET "/api/catalog/sans_image_marche.png" for 192.168.1.244 at 2018-06-04 17:59:11 +0200
+F, [2018-06-04T17:59:11.446633 #21151] FATAL -- : [897cc218-ebd0-40e6-8e02-d513b6768fec]   
+F, [2018-06-04T17:59:11.446670 #21151] FATAL -- : [897cc218-ebd0-40e6-8e02-d513b6768fec] ActionController::RoutingError (No route matches [GET] "/api/catalog/sans_image_marche.png"):
+F, [2018-06-04T17:59:11.446685 #21151] FATAL -- : [897cc218-ebd0-40e6-8e02-d513b6768fec]   
+F, [2018-06-04T17:59:11.446702 #21151] FATAL -- : [897cc218-ebd0-40e6-8e02-d513b6768fec] actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] railties (5.1.6) lib/rails/engine.rb:522:in `call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+[897cc218-ebd0-40e6-8e02-d513b6768fec] puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+I, [2018-06-04T18:00:57.772265 #21151]  INFO -- : [cc7cb0b6-f953-4a43-8203-20c2c82ff6bc] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:00:57 +0200
+I, [2018-06-04T18:00:57.773656 #21151]  INFO -- : [cc7cb0b6-f953-4a43-8203-20c2c82ff6bc] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:00:57.776257 #21151]  INFO -- : [7de2f19b-c953-4beb-819d-29857361fd78] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:00:57 +0200
+I, [2018-06-04T18:00:57.777612 #21151]  INFO -- : [7de2f19b-c953-4beb-819d-29857361fd78] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:00:57.778788 #21151] DEBUG -- : [cc7cb0b6-f953-4a43-8203-20c2c82ff6bc]   [1m[36mPpCity Load (3.1ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:00:57.780987 #21151]  INFO -- : [cc7cb0b6-f953-4a43-8203-20c2c82ff6bc] Completed 200 OK in 7ms (Views: 6.2ms)
+D, [2018-06-04T18:00:57.782735 #21151] DEBUG -- : [7de2f19b-c953-4beb-819d-29857361fd78]   [1m[36mPpProgram Load (0.7ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:00:57 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:00:57.784596 #21151] DEBUG -- : [7de2f19b-c953-4beb-819d-29857361fd78]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:57.785881 #21151] DEBUG -- : [7de2f19b-c953-4beb-819d-29857361fd78]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:00:57.787097 #21151] DEBUG -- : [7de2f19b-c953-4beb-819d-29857361fd78]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:57.788290 #21151] DEBUG -- : [7de2f19b-c953-4beb-819d-29857361fd78]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:00:57.789494 #21151] DEBUG -- : [7de2f19b-c953-4beb-819d-29857361fd78]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:57.790477 #21151] DEBUG -- : [7de2f19b-c953-4beb-819d-29857361fd78]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:00:57.791440 #21151] DEBUG -- : [7de2f19b-c953-4beb-819d-29857361fd78]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:00:57.794766 #21151]  INFO -- : [7de2f19b-c953-4beb-819d-29857361fd78] Completed 200 OK in 17ms (Views: 2.9ms)
+I, [2018-06-04T18:00:57.800774 #21151]  INFO -- : [c5f27d72-88b1-40e8-82b0-068116c45ca2] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:00:57 +0200
+I, [2018-06-04T18:00:57.801736 #21151]  INFO -- : [c5f27d72-88b1-40e8-82b0-068116c45ca2] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:00:57.803143 #21151]  INFO -- : [d6d298ee-4f4c-465c-970f-c197024a117e] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:00:57 +0200
+I, [2018-06-04T18:00:57.804003 #21151]  INFO -- : [d6d298ee-4f4c-465c-970f-c197024a117e] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:00:57.806080 #21151] DEBUG -- : [d6d298ee-4f4c-465c-970f-c197024a117e]   [1m[36mPpProgram Load (0.4ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:00:57 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:00:57.807188 #21151] DEBUG -- : [c5f27d72-88b1-40e8-82b0-068116c45ca2]   [1m[36mPpCity Load (2.0ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:00:57.808840 #21151]  INFO -- : [c5f27d72-88b1-40e8-82b0-068116c45ca2] Completed 200 OK in 7ms (Views: 6.3ms)
+D, [2018-06-04T18:00:57.809965 #21151] DEBUG -- : [d6d298ee-4f4c-465c-970f-c197024a117e]   [1m[36mPpMarche Load (2.9ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:57.810941 #21151] DEBUG -- : [d6d298ee-4f4c-465c-970f-c197024a117e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:00:57.811855 #21151] DEBUG -- : [d6d298ee-4f4c-465c-970f-c197024a117e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:57.812734 #21151] DEBUG -- : [d6d298ee-4f4c-465c-970f-c197024a117e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:00:57.813567 #21151] DEBUG -- : [d6d298ee-4f4c-465c-970f-c197024a117e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:57.814399 #21151] DEBUG -- : [d6d298ee-4f4c-465c-970f-c197024a117e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:00:57.815268 #21151] DEBUG -- : [d6d298ee-4f4c-465c-970f-c197024a117e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:00:57.818298 #21151]  INFO -- : [d6d298ee-4f4c-465c-970f-c197024a117e] Completed 200 OK in 14ms (Views: 2.6ms)
+I, [2018-06-04T18:00:58.296569 #21151]  INFO -- : [753bbde7-935f-4ae6-84cf-0e6ac8874d97] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:00:58 +0200
+I, [2018-06-04T18:00:58.297834 #21151]  INFO -- : [753bbde7-935f-4ae6-84cf-0e6ac8874d97] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:00:58.299718 #21151]  INFO -- : [6ecd15a5-a697-4b9a-b765-8acd899157ae] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:00:58 +0200
+I, [2018-06-04T18:00:58.300765 #21151]  INFO -- : [6ecd15a5-a697-4b9a-b765-8acd899157ae] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:00:58.303409 #21151] DEBUG -- : [6ecd15a5-a697-4b9a-b765-8acd899157ae]   [1m[36mPpProgram Load (0.6ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:00:58 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:00:58.304873 #21151] DEBUG -- : [753bbde7-935f-4ae6-84cf-0e6ac8874d97]   [1m[36mPpCity Load (2.7ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:00:58.306867 #21151]  INFO -- : [753bbde7-935f-4ae6-84cf-0e6ac8874d97] Completed 200 OK in 9ms (Views: 8.0ms)
+D, [2018-06-04T18:00:58.308177 #21151] DEBUG -- : [6ecd15a5-a697-4b9a-b765-8acd899157ae]   [1m[36mPpMarche Load (3.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:58.309362 #21151] DEBUG -- : [6ecd15a5-a697-4b9a-b765-8acd899157ae]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+I, [2018-06-04T18:00:58.310560 #21151]  INFO -- : [b1ed8b13-1cb2-4e79-85ea-d1201c6781ae] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:00:58 +0200
+I, [2018-06-04T18:00:58.311599 #21151]  INFO -- : [b1ed8b13-1cb2-4e79-85ea-d1201c6781ae] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T18:00:58.312814 #21151] DEBUG -- : [6ecd15a5-a697-4b9a-b765-8acd899157ae]   [1m[36mPpMarche Load (2.8ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:58.313881 #21151] DEBUG -- : [6ecd15a5-a697-4b9a-b765-8acd899157ae]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:00:58.314680 #21151] DEBUG -- : [6ecd15a5-a697-4b9a-b765-8acd899157ae]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:58.315461 #21151] DEBUG -- : [6ecd15a5-a697-4b9a-b765-8acd899157ae]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:00:58.316101 #21151] DEBUG -- : [b1ed8b13-1cb2-4e79-85ea-d1201c6781ae]   [1m[36mPpCity Load (2.3ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:00:58.321803 #21151]  INFO -- : [b1ed8b13-1cb2-4e79-85ea-d1201c6781ae] Completed 200 OK in 10ms (Views: 9.4ms)
+D, [2018-06-04T18:00:58.322589 #21151] DEBUG -- : [6ecd15a5-a697-4b9a-b765-8acd899157ae]   [1m[36mPpMarche Load (6.7ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:00:58.325064 #21151]  INFO -- : [6ecd15a5-a697-4b9a-b765-8acd899157ae] Completed 200 OK in 24ms (Views: 2.1ms)
+I, [2018-06-04T18:00:58.327426 #21151]  INFO -- : [e7f4bda6-efa0-48dd-bbe4-9d397872ed3d] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:00:58 +0200
+I, [2018-06-04T18:00:58.328134 #21151]  INFO -- : [e7f4bda6-efa0-48dd-bbe4-9d397872ed3d] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:00:58.329556 #21151] DEBUG -- : [e7f4bda6-efa0-48dd-bbe4-9d397872ed3d]   [1m[36mPpProgram Load (0.4ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:00:58 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:00:58.330755 #21151] DEBUG -- : [e7f4bda6-efa0-48dd-bbe4-9d397872ed3d]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:58.331571 #21151] DEBUG -- : [e7f4bda6-efa0-48dd-bbe4-9d397872ed3d]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:00:58.332340 #21151] DEBUG -- : [e7f4bda6-efa0-48dd-bbe4-9d397872ed3d]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:58.333066 #21151] DEBUG -- : [e7f4bda6-efa0-48dd-bbe4-9d397872ed3d]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:00:58.333775 #21151] DEBUG -- : [e7f4bda6-efa0-48dd-bbe4-9d397872ed3d]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:58.334455 #21151] DEBUG -- : [e7f4bda6-efa0-48dd-bbe4-9d397872ed3d]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:00:58.335226 #21151] DEBUG -- : [e7f4bda6-efa0-48dd-bbe4-9d397872ed3d]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:00:58.337717 #21151]  INFO -- : [e7f4bda6-efa0-48dd-bbe4-9d397872ed3d] Completed 200 OK in 9ms (Views: 2.2ms)
+I, [2018-06-04T18:00:58.900337 #21151]  INFO -- : [ddca389e-37b1-4a82-a57d-b512fe1c5b5c] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:00:58 +0200
+I, [2018-06-04T18:00:58.901557 #21151]  INFO -- : [ddca389e-37b1-4a82-a57d-b512fe1c5b5c] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:00:58.906058 #21151]  INFO -- : [ee6cd7de-29a6-4ba0-bd33-e669ba83c64e] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:00:58 +0200
+I, [2018-06-04T18:00:58.906939 #21151]  INFO -- : [ee6cd7de-29a6-4ba0-bd33-e669ba83c64e] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:00:58.907797 #21151] DEBUG -- : [ddca389e-37b1-4a82-a57d-b512fe1c5b5c]   [1m[36mPpCity Load (4.6ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:00:58.909513 #21151]  INFO -- : [ddca389e-37b1-4a82-a57d-b512fe1c5b5c] Completed 200 OK in 8ms (Views: 7.0ms)
+D, [2018-06-04T18:00:58.911134 #21151] DEBUG -- : [ee6cd7de-29a6-4ba0-bd33-e669ba83c64e]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:00:58 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:00:58.912719 #21151] DEBUG -- : [ee6cd7de-29a6-4ba0-bd33-e669ba83c64e]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:58.913753 #21151] DEBUG -- : [ee6cd7de-29a6-4ba0-bd33-e669ba83c64e]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:00:58.914739 #21151] DEBUG -- : [ee6cd7de-29a6-4ba0-bd33-e669ba83c64e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:58.915689 #21151] DEBUG -- : [ee6cd7de-29a6-4ba0-bd33-e669ba83c64e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:00:58.916668 #21151] DEBUG -- : [ee6cd7de-29a6-4ba0-bd33-e669ba83c64e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:58.917665 #21151] DEBUG -- : [ee6cd7de-29a6-4ba0-bd33-e669ba83c64e]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:00:58.918518 #21151] DEBUG -- : [ee6cd7de-29a6-4ba0-bd33-e669ba83c64e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:00:58.921445 #21151]  INFO -- : [ee6cd7de-29a6-4ba0-bd33-e669ba83c64e] Completed 200 OK in 14ms (Views: 2.5ms)
+I, [2018-06-04T18:00:58.966251 #21151]  INFO -- : [739cffa8-482e-45ea-9de7-d12b8f706999] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:00:58 +0200
+I, [2018-06-04T18:00:58.967005 #21151]  INFO -- : [739cffa8-482e-45ea-9de7-d12b8f706999] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:00:58.968001 #21151]  INFO -- : [5644b177-0bd7-413c-8f9f-c717b481a7cc] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:00:58 +0200
+I, [2018-06-04T18:00:58.968994 #21151]  INFO -- : [5644b177-0bd7-413c-8f9f-c717b481a7cc] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:00:58.969998 #21151] DEBUG -- : [739cffa8-482e-45ea-9de7-d12b8f706999]   [1m[36mPpCity Load (1.6ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:00:58.971143 #21151]  INFO -- : [739cffa8-482e-45ea-9de7-d12b8f706999] Completed 200 OK in 4ms (Views: 3.6ms)
+D, [2018-06-04T18:00:58.971974 #21151] DEBUG -- : [5644b177-0bd7-413c-8f9f-c717b481a7cc]   [1m[36mPpProgram Load (2.1ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:00:58 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:00:58.972993 #21151] DEBUG -- : [5644b177-0bd7-413c-8f9f-c717b481a7cc]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:58.973768 #21151] DEBUG -- : [5644b177-0bd7-413c-8f9f-c717b481a7cc]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:00:58.974420 #21151] DEBUG -- : [5644b177-0bd7-413c-8f9f-c717b481a7cc]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:58.975182 #21151] DEBUG -- : [5644b177-0bd7-413c-8f9f-c717b481a7cc]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:00:58.976018 #21151] DEBUG -- : [5644b177-0bd7-413c-8f9f-c717b481a7cc]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:58.976652 #21151] DEBUG -- : [5644b177-0bd7-413c-8f9f-c717b481a7cc]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:00:58.977190 #21151] DEBUG -- : [5644b177-0bd7-413c-8f9f-c717b481a7cc]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:00:58.979303 #21151]  INFO -- : [5644b177-0bd7-413c-8f9f-c717b481a7cc] Completed 200 OK in 10ms (Views: 1.8ms)
+I, [2018-06-04T18:00:59.702634 #21151]  INFO -- : [7600f3de-768e-4c6c-9443-d0fd6d33b25b] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:00:59 +0200
+I, [2018-06-04T18:00:59.703845 #21151]  INFO -- : [7600f3de-768e-4c6c-9443-d0fd6d33b25b] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T18:00:59.705152 #21151]  INFO -- : [178bf733-e61a-48ad-ad68-643e79478d3f] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:00:59 +0200
+I, [2018-06-04T18:00:59.706044 #21151]  INFO -- : [178bf733-e61a-48ad-ad68-643e79478d3f] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T18:00:59.708078 #21151] DEBUG -- : [7600f3de-768e-4c6c-9443-d0fd6d33b25b]   [1m[36mPpProgram Load (0.6ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:00:59 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:00:59.709688 #21151] DEBUG -- : [7600f3de-768e-4c6c-9443-d0fd6d33b25b]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:59.710363 #21151] DEBUG -- : [178bf733-e61a-48ad-ad68-643e79478d3f]   [1m[36mPpCity Load (2.5ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:00:59.711962 #21151]  INFO -- : [178bf733-e61a-48ad-ad68-643e79478d3f] Completed 200 OK in 6ms (Views: 5.2ms)
+D, [2018-06-04T18:00:59.712786 #21151] DEBUG -- : [7600f3de-768e-4c6c-9443-d0fd6d33b25b]   [1m[36mPpMarche Load (2.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:00:59.713745 #21151] DEBUG -- : [7600f3de-768e-4c6c-9443-d0fd6d33b25b]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:59.714596 #21151] DEBUG -- : [7600f3de-768e-4c6c-9443-d0fd6d33b25b]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:00:59.715469 #21151] DEBUG -- : [7600f3de-768e-4c6c-9443-d0fd6d33b25b]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:59.716269 #21151] DEBUG -- : [7600f3de-768e-4c6c-9443-d0fd6d33b25b]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:00:59.717066 #21151] DEBUG -- : [7600f3de-768e-4c6c-9443-d0fd6d33b25b]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:00:59.720025 #21151]  INFO -- : [7600f3de-768e-4c6c-9443-d0fd6d33b25b] Completed 200 OK in 16ms (Views: 2.6ms)
+I, [2018-06-04T18:00:59.720856 #21151]  INFO -- : [c3a531bf-e48c-40f8-9006-28657dbfb85c] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:00:59 +0200
+I, [2018-06-04T18:00:59.721701 #21151]  INFO -- : [c3a531bf-e48c-40f8-9006-28657dbfb85c] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T18:00:59.724931 #21151] DEBUG -- : [c3a531bf-e48c-40f8-9006-28657dbfb85c]   [1m[36mPpCity Load (1.8ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:00:59.726349 #21151]  INFO -- : [c3a531bf-e48c-40f8-9006-28657dbfb85c] Completed 200 OK in 5ms (Views: 4.0ms)
+I, [2018-06-04T18:00:59.729449 #21151]  INFO -- : [b460b7fe-0f31-4b7b-a790-9f480aebb51a] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:00:59 +0200
+I, [2018-06-04T18:00:59.730202 #21151]  INFO -- : [b460b7fe-0f31-4b7b-a790-9f480aebb51a] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:00:59.731740 #21151] DEBUG -- : [b460b7fe-0f31-4b7b-a790-9f480aebb51a]   [1m[36mPpProgram Load (0.4ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:00:59 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:00:59.733045 #21151] DEBUG -- : [b460b7fe-0f31-4b7b-a790-9f480aebb51a]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:59.733923 #21151] DEBUG -- : [b460b7fe-0f31-4b7b-a790-9f480aebb51a]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:00:59.734646 #21151] DEBUG -- : [b460b7fe-0f31-4b7b-a790-9f480aebb51a]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:59.735394 #21151] DEBUG -- : [b460b7fe-0f31-4b7b-a790-9f480aebb51a]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:00:59.736071 #21151] DEBUG -- : [b460b7fe-0f31-4b7b-a790-9f480aebb51a]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:00:59.736740 #21151] DEBUG -- : [b460b7fe-0f31-4b7b-a790-9f480aebb51a]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:00:59.737463 #21151] DEBUG -- : [b460b7fe-0f31-4b7b-a790-9f480aebb51a]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:00:59.739977 #21151]  INFO -- : [b460b7fe-0f31-4b7b-a790-9f480aebb51a] Completed 200 OK in 10ms (Views: 2.1ms)
+I, [2018-06-04T18:01:00.413813 #21151]  INFO -- : [f80df67b-2b47-4b9e-b348-5fec155a6a34] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:01:00 +0200
+I, [2018-06-04T18:01:00.414990 #21151]  INFO -- : [f80df67b-2b47-4b9e-b348-5fec155a6a34] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:01:00.416455 #21151]  INFO -- : [35a05ec8-2b91-47b6-9b2f-2605eae72d8a] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:01:00 +0200
+I, [2018-06-04T18:01:00.417290 #21151]  INFO -- : [35a05ec8-2b91-47b6-9b2f-2605eae72d8a] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:01:00.419404 #21151] DEBUG -- : [35a05ec8-2b91-47b6-9b2f-2605eae72d8a]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:01:00 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:01:00.420714 #21151] DEBUG -- : [f80df67b-2b47-4b9e-b348-5fec155a6a34]   [1m[36mPpCity Load (2.2ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:01:00.422653 #21151]  INFO -- : [f80df67b-2b47-4b9e-b348-5fec155a6a34] Completed 200 OK in 7ms (Views: 6.7ms)
+D, [2018-06-04T18:01:00.423314 #21151] DEBUG -- : [35a05ec8-2b91-47b6-9b2f-2605eae72d8a]   [1m[36mPpMarche Load (2.8ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:00.424521 #21151] DEBUG -- : [35a05ec8-2b91-47b6-9b2f-2605eae72d8a]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:01:00.425635 #21151] DEBUG -- : [35a05ec8-2b91-47b6-9b2f-2605eae72d8a]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:00.426550 #21151] DEBUG -- : [35a05ec8-2b91-47b6-9b2f-2605eae72d8a]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:01:00.427495 #21151] DEBUG -- : [35a05ec8-2b91-47b6-9b2f-2605eae72d8a]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:00.428402 #21151] DEBUG -- : [35a05ec8-2b91-47b6-9b2f-2605eae72d8a]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:01:00.429367 #21151] DEBUG -- : [35a05ec8-2b91-47b6-9b2f-2605eae72d8a]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:01:00.432450 #21151]  INFO -- : [35a05ec8-2b91-47b6-9b2f-2605eae72d8a] Completed 200 OK in 15ms (Views: 2.6ms)
+I, [2018-06-04T18:01:00.460357 #21151]  INFO -- : [75131fa0-005d-44c9-a76f-be24fc89fc1f] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:01:00 +0200
+I, [2018-06-04T18:01:00.461075 #21151]  INFO -- : [75131fa0-005d-44c9-a76f-be24fc89fc1f] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:01:00.463852 #21151]  INFO -- : [bd8b9312-b29a-47d7-9684-cc97663c46c3] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:01:00 +0200
+I, [2018-06-04T18:01:00.464503 #21151]  INFO -- : [bd8b9312-b29a-47d7-9684-cc97663c46c3] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:01:00.465219 #21151] DEBUG -- : [75131fa0-005d-44c9-a76f-be24fc89fc1f]   [1m[36mPpCity Load (3.1ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:01:00.466499 #21151]  INFO -- : [75131fa0-005d-44c9-a76f-be24fc89fc1f] Completed 200 OK in 5ms (Views: 4.8ms)
+D, [2018-06-04T18:01:00.467541 #21151] DEBUG -- : [bd8b9312-b29a-47d7-9684-cc97663c46c3]   [1m[36mPpProgram Load (0.4ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:01:00 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:01:00.468642 #21151] DEBUG -- : [bd8b9312-b29a-47d7-9684-cc97663c46c3]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:00.469369 #21151] DEBUG -- : [bd8b9312-b29a-47d7-9684-cc97663c46c3]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:01:00.470008 #21151] DEBUG -- : [bd8b9312-b29a-47d7-9684-cc97663c46c3]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:00.470566 #21151] DEBUG -- : [bd8b9312-b29a-47d7-9684-cc97663c46c3]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:01:00.471132 #21151] DEBUG -- : [bd8b9312-b29a-47d7-9684-cc97663c46c3]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:00.471659 #21151] DEBUG -- : [bd8b9312-b29a-47d7-9684-cc97663c46c3]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:01:00.472244 #21151] DEBUG -- : [bd8b9312-b29a-47d7-9684-cc97663c46c3]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:01:00.474199 #21151]  INFO -- : [bd8b9312-b29a-47d7-9684-cc97663c46c3] Completed 200 OK in 10ms (Views: 1.7ms)
+I, [2018-06-04T18:01:00.781945 #21151]  INFO -- : [c3bde529-65cc-440e-8a89-e49e2d5bc66e] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:01:00 +0200
+I, [2018-06-04T18:01:00.782911 #21151]  INFO -- : [c3bde529-65cc-440e-8a89-e49e2d5bc66e] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T18:01:00.784141 #21151]  INFO -- : [16979698-d9b9-42ca-b579-c76b2a5b30a0] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:01:00 +0200
+I, [2018-06-04T18:01:00.784914 #21151]  INFO -- : [16979698-d9b9-42ca-b579-c76b2a5b30a0] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T18:01:00.786700 #21151] DEBUG -- : [c3bde529-65cc-440e-8a89-e49e2d5bc66e]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:01:00 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:01:00.787991 #21151] DEBUG -- : [c3bde529-65cc-440e-8a89-e49e2d5bc66e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:00.788664 #21151] DEBUG -- : [16979698-d9b9-42ca-b579-c76b2a5b30a0]   [1m[36mPpCity Load (2.1ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:01:00.790053 #21151]  INFO -- : [16979698-d9b9-42ca-b579-c76b2a5b30a0] Completed 200 OK in 5ms (Views: 4.4ms)
+D, [2018-06-04T18:01:00.790718 #21151] DEBUG -- : [c3bde529-65cc-440e-8a89-e49e2d5bc66e]   [1m[36mPpMarche Load (2.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:01:00.791452 #21151] DEBUG -- : [c3bde529-65cc-440e-8a89-e49e2d5bc66e]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:00.792079 #21151] DEBUG -- : [c3bde529-65cc-440e-8a89-e49e2d5bc66e]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:01:00.792704 #21151] DEBUG -- : [c3bde529-65cc-440e-8a89-e49e2d5bc66e]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:00.793267 #21151] DEBUG -- : [c3bde529-65cc-440e-8a89-e49e2d5bc66e]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:01:00.793913 #21151] DEBUG -- : [c3bde529-65cc-440e-8a89-e49e2d5bc66e]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:01:00.795993 #21151]  INFO -- : [c3bde529-65cc-440e-8a89-e49e2d5bc66e] Completed 200 OK in 13ms (Views: 1.8ms)
+I, [2018-06-04T18:01:00.832395 #21151]  INFO -- : [bbffdff5-24be-48c7-b675-c2f91b0ed4d9] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:01:00 +0200
+I, [2018-06-04T18:01:00.832979 #21151]  INFO -- : [bbffdff5-24be-48c7-b675-c2f91b0ed4d9] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:01:00.833872 #21151]  INFO -- : [27eed04f-8c91-48b5-b739-a0a693b1e767] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:01:00 +0200
+I, [2018-06-04T18:01:00.834358 #21151]  INFO -- : [27eed04f-8c91-48b5-b739-a0a693b1e767] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:01:00.835589 #21151] DEBUG -- : [27eed04f-8c91-48b5-b739-a0a693b1e767]   [1m[36mPpProgram Load (0.3ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:01:00 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:01:00.836342 #21151] DEBUG -- : [bbffdff5-24be-48c7-b675-c2f91b0ed4d9]   [1m[36mPpCity Load (1.3ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:01:00.837445 #21151]  INFO -- : [bbffdff5-24be-48c7-b675-c2f91b0ed4d9] Completed 200 OK in 4ms (Views: 3.9ms)
+D, [2018-06-04T18:01:00.838097 #21151] DEBUG -- : [27eed04f-8c91-48b5-b739-a0a693b1e767]   [1m[36mPpMarche Load (1.8ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:00.838752 #21151] DEBUG -- : [27eed04f-8c91-48b5-b739-a0a693b1e767]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:01:00.839326 #21151] DEBUG -- : [27eed04f-8c91-48b5-b739-a0a693b1e767]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:00.839929 #21151] DEBUG -- : [27eed04f-8c91-48b5-b739-a0a693b1e767]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:01:00.840496 #21151] DEBUG -- : [27eed04f-8c91-48b5-b739-a0a693b1e767]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:00.841104 #21151] DEBUG -- : [27eed04f-8c91-48b5-b739-a0a693b1e767]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:01:00.841655 #21151] DEBUG -- : [27eed04f-8c91-48b5-b739-a0a693b1e767]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:01:00.843574 #21151]  INFO -- : [27eed04f-8c91-48b5-b739-a0a693b1e767] Completed 200 OK in 9ms (Views: 1.6ms)
+I, [2018-06-04T18:01:01.330563 #21151]  INFO -- : [da7268d0-0a52-4373-a199-7eb240f066dc] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:01:01 +0200
+I, [2018-06-04T18:01:01.331555 #21151]  INFO -- : [da7268d0-0a52-4373-a199-7eb240f066dc] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:01:01.333120 #21151]  INFO -- : [192ce04d-dc8d-488c-ac53-58579201c953] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:01:01 +0200
+I, [2018-06-04T18:01:01.333974 #21151]  INFO -- : [192ce04d-dc8d-488c-ac53-58579201c953] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:01:01.336099 #21151] DEBUG -- : [192ce04d-dc8d-488c-ac53-58579201c953]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:01:01 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:01:01.337501 #21151] DEBUG -- : [da7268d0-0a52-4373-a199-7eb240f066dc]   [1m[36mPpCity Load (2.3ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:01:01.339791 #21151]  INFO -- : [da7268d0-0a52-4373-a199-7eb240f066dc] Completed 200 OK in 8ms (Views: 7.3ms)
+D, [2018-06-04T18:01:01.341058 #21151] DEBUG -- : [192ce04d-dc8d-488c-ac53-58579201c953]   [1m[36mPpMarche Load (3.8ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:01.342565 #21151] DEBUG -- : [192ce04d-dc8d-488c-ac53-58579201c953]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+I, [2018-06-04T18:01:01.344154 #21151]  INFO -- : [64c512b1-a7f8-4bda-bb30-02fd1dc2627a] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:01:01 +0200
+I, [2018-06-04T18:01:01.345319 #21151]  INFO -- : [64c512b1-a7f8-4bda-bb30-02fd1dc2627a] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T18:01:01.346826 #21151] DEBUG -- : [192ce04d-dc8d-488c-ac53-58579201c953]   [1m[36mPpMarche Load (3.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:01.348334 #21151] DEBUG -- : [192ce04d-dc8d-488c-ac53-58579201c953]   [1m[36mPpMarche Load (0.7ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:01:01.349596 #21151] DEBUG -- : [192ce04d-dc8d-488c-ac53-58579201c953]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:01.350507 #21151] DEBUG -- : [192ce04d-dc8d-488c-ac53-58579201c953]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:01:01.351095 #21151] DEBUG -- : [64c512b1-a7f8-4bda-bb30-02fd1dc2627a]   [1m[36mPpCity Load (3.0ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:01:01.352733 #21151]  INFO -- : [64c512b1-a7f8-4bda-bb30-02fd1dc2627a] Completed 200 OK in 7ms (Views: 6.4ms)
+D, [2018-06-04T18:01:01.353640 #21151] DEBUG -- : [192ce04d-dc8d-488c-ac53-58579201c953]   [1m[36mPpMarche Load (2.7ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:01:01.356700 #21151]  INFO -- : [192ce04d-dc8d-488c-ac53-58579201c953] Completed 200 OK in 23ms (Views: 2.6ms)
+I, [2018-06-04T18:01:01.359367 #21151]  INFO -- : [74cfd801-ae42-453c-8a90-710ad29758bc] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:01:01 +0200
+I, [2018-06-04T18:01:01.360221 #21151]  INFO -- : [74cfd801-ae42-453c-8a90-710ad29758bc] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:01:01.361982 #21151] DEBUG -- : [74cfd801-ae42-453c-8a90-710ad29758bc]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:01:01 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:01:01.363525 #21151] DEBUG -- : [74cfd801-ae42-453c-8a90-710ad29758bc]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:01.364494 #21151] DEBUG -- : [74cfd801-ae42-453c-8a90-710ad29758bc]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:01:01.365416 #21151] DEBUG -- : [74cfd801-ae42-453c-8a90-710ad29758bc]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:01.366323 #21151] DEBUG -- : [74cfd801-ae42-453c-8a90-710ad29758bc]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:01:01.367100 #21151] DEBUG -- : [74cfd801-ae42-453c-8a90-710ad29758bc]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:01.367912 #21151] DEBUG -- : [74cfd801-ae42-453c-8a90-710ad29758bc]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:01:01.368717 #21151] DEBUG -- : [74cfd801-ae42-453c-8a90-710ad29758bc]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:01:01.371605 #21151]  INFO -- : [74cfd801-ae42-453c-8a90-710ad29758bc] Completed 200 OK in 11ms (Views: 2.5ms)
+I, [2018-06-04T18:01:01.824746 #21151]  INFO -- : [c6f78c4e-8df4-4176-853b-3571bacb4b4a] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:01:01 +0200
+I, [2018-06-04T18:01:01.825409 #21151]  INFO -- : [c6f78c4e-8df4-4176-853b-3571bacb4b4a] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:01:01.827629 #21151]  INFO -- : [698fb446-6ce1-4eec-b2f3-4b57ddda9818] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:01:01 +0200
+I, [2018-06-04T18:01:01.828758 #21151]  INFO -- : [698fb446-6ce1-4eec-b2f3-4b57ddda9818] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:01:01.831403 #21151] DEBUG -- : [698fb446-6ce1-4eec-b2f3-4b57ddda9818]   [1m[36mPpProgram Load (0.6ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:01:01 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:01:01.833108 #21151] DEBUG -- : [c6f78c4e-8df4-4176-853b-3571bacb4b4a]   [1m[36mPpCity Load (2.9ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:01:01.835549 #21151]  INFO -- : [c6f78c4e-8df4-4176-853b-3571bacb4b4a] Completed 200 OK in 10ms (Views: 8.9ms)
+D, [2018-06-04T18:01:01.836351 #21151] DEBUG -- : [698fb446-6ce1-4eec-b2f3-4b57ddda9818]   [1m[36mPpMarche Load (3.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:01.837920 #21151] DEBUG -- : [698fb446-6ce1-4eec-b2f3-4b57ddda9818]   [1m[36mPpMarche Load (0.8ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:01:01.839066 #21151] DEBUG -- : [698fb446-6ce1-4eec-b2f3-4b57ddda9818]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:01.840185 #21151] DEBUG -- : [698fb446-6ce1-4eec-b2f3-4b57ddda9818]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+I, [2018-06-04T18:01:01.841577 #21151]  INFO -- : [2e0b97b2-467b-4226-9d9d-0e1404b3e96d] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:01:01 +0200
+I, [2018-06-04T18:01:01.842641 #21151]  INFO -- : [2e0b97b2-467b-4226-9d9d-0e1404b3e96d] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T18:01:01.843924 #21151] DEBUG -- : [698fb446-6ce1-4eec-b2f3-4b57ddda9818]   [1m[36mPpMarche Load (3.1ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:01.845096 #21151] DEBUG -- : [698fb446-6ce1-4eec-b2f3-4b57ddda9818]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:01:01.846251 #21151] DEBUG -- : [698fb446-6ce1-4eec-b2f3-4b57ddda9818]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:01:01.850026 #21151]  INFO -- : [698fb446-6ce1-4eec-b2f3-4b57ddda9818] Completed 200 OK in 21ms (Views: 3.2ms)
+D, [2018-06-04T18:01:01.850788 #21151] DEBUG -- : [2e0b97b2-467b-4226-9d9d-0e1404b3e96d]   [1m[36mPpCity Load (5.8ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:01:01.852504 #21151]  INFO -- : [2e0b97b2-467b-4226-9d9d-0e1404b3e96d] Completed 200 OK in 10ms (Views: 9.0ms)
+I, [2018-06-04T18:01:01.854035 #21151]  INFO -- : [8525132e-06ef-4af7-864e-cb86916ec26e] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:01:01 +0200
+I, [2018-06-04T18:01:01.854956 #21151]  INFO -- : [8525132e-06ef-4af7-864e-cb86916ec26e] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:01:01.856811 #21151] DEBUG -- : [8525132e-06ef-4af7-864e-cb86916ec26e]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:01:01 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:01:01.858507 #21151] DEBUG -- : [8525132e-06ef-4af7-864e-cb86916ec26e]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:01.859492 #21151] DEBUG -- : [8525132e-06ef-4af7-864e-cb86916ec26e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:01:01.860568 #21151] DEBUG -- : [8525132e-06ef-4af7-864e-cb86916ec26e]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:01.861591 #21151] DEBUG -- : [8525132e-06ef-4af7-864e-cb86916ec26e]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:01:01.862538 #21151] DEBUG -- : [8525132e-06ef-4af7-864e-cb86916ec26e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:01.863449 #21151] DEBUG -- : [8525132e-06ef-4af7-864e-cb86916ec26e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:01:01.864439 #21151] DEBUG -- : [8525132e-06ef-4af7-864e-cb86916ec26e]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:01:01.867534 #21151]  INFO -- : [8525132e-06ef-4af7-864e-cb86916ec26e] Completed 200 OK in 12ms (Views: 2.7ms)
+I, [2018-06-04T18:01:10.271635 #21151]  INFO -- : [1631a9ea-9461-4396-a5cf-b44fff923686] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:01:10 +0200
+I, [2018-06-04T18:01:10.272894 #21151]  INFO -- : [1631a9ea-9461-4396-a5cf-b44fff923686] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:01:10.274746 #21151]  INFO -- : [ba287b17-bf95-478d-8c4a-3f80a490f620] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:01:10 +0200
+I, [2018-06-04T18:01:10.275805 #21151]  INFO -- : [ba287b17-bf95-478d-8c4a-3f80a490f620] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:01:10.278510 #21151] DEBUG -- : [ba287b17-bf95-478d-8c4a-3f80a490f620]   [1m[36mPpProgram Load (0.6ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:01:10 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:01:10.280181 #21151] DEBUG -- : [1631a9ea-9461-4396-a5cf-b44fff923686]   [1m[36mPpCity Load (2.9ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:01:10.282522 #21151]  INFO -- : [1631a9ea-9461-4396-a5cf-b44fff923686] Completed 200 OK in 9ms (Views: 8.6ms)
+D, [2018-06-04T18:01:10.283415 #21151] DEBUG -- : [ba287b17-bf95-478d-8c4a-3f80a490f620]   [1m[36mPpMarche Load (3.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:10.284961 #21151] DEBUG -- : [ba287b17-bf95-478d-8c4a-3f80a490f620]   [1m[36mPpMarche Load (0.7ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:01:10.286297 #21151] DEBUG -- : [ba287b17-bf95-478d-8c4a-3f80a490f620]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:10.287613 #21151] DEBUG -- : [ba287b17-bf95-478d-8c4a-3f80a490f620]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:01:10.288860 #21151] DEBUG -- : [ba287b17-bf95-478d-8c4a-3f80a490f620]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:01:10.290169 #21151] DEBUG -- : [ba287b17-bf95-478d-8c4a-3f80a490f620]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:01:10.291314 #21151] DEBUG -- : [ba287b17-bf95-478d-8c4a-3f80a490f620]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:01:10.295141 #21151]  INFO -- : [ba287b17-bf95-478d-8c4a-3f80a490f620] Completed 200 OK in 19ms (Views: 3.3ms)
+I, [2018-06-04T18:05:45.800789 #21151]  INFO -- : [f01a3817-491c-48f0-99ae-86927511c827] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:05:45 +0200
+I, [2018-06-04T18:05:45.802482 #21151]  INFO -- : [f01a3817-491c-48f0-99ae-86927511c827] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:05:45.805932 #21151]  INFO -- : [3ff6ff7e-bba1-4488-9606-f1f7e64c3723] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:05:45 +0200
+I, [2018-06-04T18:05:45.807042 #21151]  INFO -- : [3ff6ff7e-bba1-4488-9606-f1f7e64c3723] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:05:45.808206 #21151] DEBUG -- : [f01a3817-491c-48f0-99ae-86927511c827]   [1m[36mPpCity Load (3.7ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:05:45.810302 #21151]  INFO -- : [f01a3817-491c-48f0-99ae-86927511c827] Completed 200 OK in 8ms (Views: 6.7ms)
+D, [2018-06-04T18:05:45.811850 #21151] DEBUG -- : [3ff6ff7e-bba1-4488-9606-f1f7e64c3723]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:05:45 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:05:45.813560 #21151] DEBUG -- : [3ff6ff7e-bba1-4488-9606-f1f7e64c3723]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:45.814685 #21151] DEBUG -- : [3ff6ff7e-bba1-4488-9606-f1f7e64c3723]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:05:45.815715 #21151] DEBUG -- : [3ff6ff7e-bba1-4488-9606-f1f7e64c3723]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+I, [2018-06-04T18:05:45.816858 #21151]  INFO -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:05:45 +0200
+I, [2018-06-04T18:05:45.817847 #21151]  INFO -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:05:45.819031 #21151] DEBUG -- : [3ff6ff7e-bba1-4488-9606-f1f7e64c3723]   [1m[36mPpMarche Load (2.7ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:05:45.820337 #21151] DEBUG -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567]   [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-06-04T18:05:45.820701 #21151] DEBUG -- : [3ff6ff7e-bba1-4488-9606-f1f7e64c3723]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:45.822060 #21151] DEBUG -- : [3ff6ff7e-bba1-4488-9606-f1f7e64c3723]   [1m[36mPpMarche Load (0.8ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:05:45.822839 #21151] DEBUG -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567]   [1m[36mPpProgram Load (1.0ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:05:45 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:05:45.823883 #21151] DEBUG -- : [3ff6ff7e-bba1-4488-9606-f1f7e64c3723]   [1m[36mPpMarche Load (1.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:05:45.827276 #21151]  INFO -- : [3ff6ff7e-bba1-4488-9606-f1f7e64c3723] Completed 200 OK in 20ms (Views: 2.9ms)
+D, [2018-06-04T18:05:45.828658 #21151] DEBUG -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567]   [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-06-04T18:05:45.829567 #21151] DEBUG -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:45.830506 #21151] DEBUG -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:05:45.831482 #21151] DEBUG -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+I, [2018-06-04T18:05:45.832652 #21151]  INFO -- : [0a278de2-5c9a-4dc0-aa5e-0079ba3f26e9] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:05:45 +0200
+I, [2018-06-04T18:05:45.833677 #21151]  INFO -- : [0a278de2-5c9a-4dc0-aa5e-0079ba3f26e9] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T18:05:45.834806 #21151] DEBUG -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567]   [1m[36mPpMarche Load (2.7ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:05:45.837314 #21151] DEBUG -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567]   [1m[36mPpMarche Load (1.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:45.838141 #21151] DEBUG -- : [0a278de2-5c9a-4dc0-aa5e-0079ba3f26e9]   [1m[36mPpCity Load (2.9ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:05:45.839743 #21151]  INFO -- : [0a278de2-5c9a-4dc0-aa5e-0079ba3f26e9] Completed 200 OK in 6ms (Views: 5.2ms)
+D, [2018-06-04T18:05:45.840587 #21151] DEBUG -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567]   [1m[36mPpMarche Load (2.8ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:05:45.841544 #21151] DEBUG -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:05:45.844539 #21151]  INFO -- : [8843e95c-6a19-4af0-9ed5-0287be0ed567] Completed 200 OK in 27ms (Views: 2.6ms)
+I, [2018-06-04T18:05:45.845497 #21151]  INFO -- : [99f80a17-9bea-4713-86da-8c03f167e4fa] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:05:45 +0200
+I, [2018-06-04T18:05:45.846348 #21151]  INFO -- : [99f80a17-9bea-4713-86da-8c03f167e4fa] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T18:05:45.849571 #21151] DEBUG -- : [99f80a17-9bea-4713-86da-8c03f167e4fa]   [1m[36mPpCity Load (1.8ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:05:45.851143 #21151]  INFO -- : [99f80a17-9bea-4713-86da-8c03f167e4fa] Completed 200 OK in 5ms (Views: 4.1ms)
+I, [2018-06-04T18:05:45.851918 #21151]  INFO -- : [2c8bfd6f-8711-4ce7-aab9-2473592bc805] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:05:45 +0200
+I, [2018-06-04T18:05:45.852692 #21151]  INFO -- : [2c8bfd6f-8711-4ce7-aab9-2473592bc805] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:05:45.854416 #21151] DEBUG -- : [2c8bfd6f-8711-4ce7-aab9-2473592bc805]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:05:45 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:05:45.855699 #21151] DEBUG -- : [2c8bfd6f-8711-4ce7-aab9-2473592bc805]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:45.856472 #21151] DEBUG -- : [2c8bfd6f-8711-4ce7-aab9-2473592bc805]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:05:45.857151 #21151] DEBUG -- : [2c8bfd6f-8711-4ce7-aab9-2473592bc805]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:45.857836 #21151] DEBUG -- : [2c8bfd6f-8711-4ce7-aab9-2473592bc805]   [1m[36mPpMarche Load (0.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:05:45.858485 #21151] DEBUG -- : [2c8bfd6f-8711-4ce7-aab9-2473592bc805]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:45.859235 #21151] DEBUG -- : [2c8bfd6f-8711-4ce7-aab9-2473592bc805]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:05:45.859984 #21151] DEBUG -- : [2c8bfd6f-8711-4ce7-aab9-2473592bc805]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:05:45.862626 #21151]  INFO -- : [2c8bfd6f-8711-4ce7-aab9-2473592bc805] Completed 200 OK in 10ms (Views: 2.3ms)
+I, [2018-06-04T18:05:57.738474 #21151]  INFO -- : [71979570-d19f-452c-9e72-0f12cb2b7540] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:05:57 +0200
+I, [2018-06-04T18:05:57.739808 #21151]  INFO -- : [71979570-d19f-452c-9e72-0f12cb2b7540] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:05:57.742768 #21151]  INFO -- : [4a8e40f4-2b8c-418f-9753-938404c04825] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:05:57 +0200
+I, [2018-06-04T18:05:57.743997 #21151]  INFO -- : [4a8e40f4-2b8c-418f-9753-938404c04825] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:05:57.745336 #21151] DEBUG -- : [71979570-d19f-452c-9e72-0f12cb2b7540]   [1m[36mPpCity Load (3.5ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:05:57.747615 #21151]  INFO -- : [71979570-d19f-452c-9e72-0f12cb2b7540] Completed 200 OK in 8ms (Views: 6.7ms)
+D, [2018-06-04T18:05:57.749375 #21151] DEBUG -- : [4a8e40f4-2b8c-418f-9753-938404c04825]   [1m[36mPpProgram Load (0.6ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:05:57 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:05:57.751282 #21151] DEBUG -- : [4a8e40f4-2b8c-418f-9753-938404c04825]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:57.752550 #21151] DEBUG -- : [4a8e40f4-2b8c-418f-9753-938404c04825]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:05:57.753766 #21151] DEBUG -- : [4a8e40f4-2b8c-418f-9753-938404c04825]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:57.754926 #21151] DEBUG -- : [4a8e40f4-2b8c-418f-9753-938404c04825]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:05:57.756098 #21151] DEBUG -- : [4a8e40f4-2b8c-418f-9753-938404c04825]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:57.757198 #21151] DEBUG -- : [4a8e40f4-2b8c-418f-9753-938404c04825]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:05:57.758282 #21151] DEBUG -- : [4a8e40f4-2b8c-418f-9753-938404c04825]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:05:57.761829 #21151]  INFO -- : [4a8e40f4-2b8c-418f-9753-938404c04825] Completed 200 OK in 18ms (Views: 3.1ms)
+I, [2018-06-04T18:05:57.784842 #21151]  INFO -- : [ce7d7770-cae2-466d-aaac-ffa1267f7873] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:05:57 +0200
+I, [2018-06-04T18:05:57.785830 #21151]  INFO -- : [ce7d7770-cae2-466d-aaac-ffa1267f7873] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T18:05:57.789446 #21151] DEBUG -- : [ce7d7770-cae2-466d-aaac-ffa1267f7873]   [1m[36mPpCity Load (2.1ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:05:57.791217 #21151]  INFO -- : [ce7d7770-cae2-466d-aaac-ffa1267f7873] Completed 200 OK in 5ms (Views: 4.5ms)
+I, [2018-06-04T18:05:57.794121 #21151]  INFO -- : [41077f08-0383-4fba-89a1-6ab260977081] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:05:57 +0200
+I, [2018-06-04T18:05:57.795024 #21151]  INFO -- : [41077f08-0383-4fba-89a1-6ab260977081] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:05:57.796752 #21151] DEBUG -- : [41077f08-0383-4fba-89a1-6ab260977081]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:05:57 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:05:57.798119 #21151] DEBUG -- : [41077f08-0383-4fba-89a1-6ab260977081]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:57.798826 #21151] DEBUG -- : [41077f08-0383-4fba-89a1-6ab260977081]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:05:57.799501 #21151] DEBUG -- : [41077f08-0383-4fba-89a1-6ab260977081]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:57.800182 #21151] DEBUG -- : [41077f08-0383-4fba-89a1-6ab260977081]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:05:57.800831 #21151] DEBUG -- : [41077f08-0383-4fba-89a1-6ab260977081]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:57.801514 #21151] DEBUG -- : [41077f08-0383-4fba-89a1-6ab260977081]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:05:57.802192 #21151] DEBUG -- : [41077f08-0383-4fba-89a1-6ab260977081]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:05:57.804454 #21151]  INFO -- : [41077f08-0383-4fba-89a1-6ab260977081] Completed 200 OK in 9ms (Views: 2.0ms)
+I, [2018-06-04T18:05:59.894441 #21151]  INFO -- : [e9cd1773-8821-4bb2-95f7-9cc60553faea] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:05:59 +0200
+I, [2018-06-04T18:05:59.895775 #21151]  INFO -- : [41d49dce-ad4e-412f-8e12-082fe7155531] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:05:59 +0200
+I, [2018-06-04T18:05:59.896906 #21151]  INFO -- : [41d49dce-ad4e-412f-8e12-082fe7155531] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T18:05:59.898398 #21151]  INFO -- : [e9cd1773-8821-4bb2-95f7-9cc60553faea] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T18:05:59.900839 #21151] DEBUG -- : [41d49dce-ad4e-412f-8e12-082fe7155531]   [1m[36mPpProgram Load (0.6ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:05:59 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:05:59.902890 #21151] DEBUG -- : [41d49dce-ad4e-412f-8e12-082fe7155531]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:59.904062 #21151] DEBUG -- : [e9cd1773-8821-4bb2-95f7-9cc60553faea]   [1m[36mPpCity Load (3.4ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:05:59.906638 #21151]  INFO -- : [e9cd1773-8821-4bb2-95f7-9cc60553faea] Completed 200 OK in 8ms (Views: 7.2ms)
+D, [2018-06-04T18:05:59.907995 #21151] DEBUG -- : [41d49dce-ad4e-412f-8e12-082fe7155531]   [1m[36mPpMarche Load (4.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:05:59.909524 #21151] DEBUG -- : [41d49dce-ad4e-412f-8e12-082fe7155531]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:59.910832 #21151] DEBUG -- : [41d49dce-ad4e-412f-8e12-082fe7155531]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:05:59.916695 #21151] DEBUG -- : [41d49dce-ad4e-412f-8e12-082fe7155531]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:05:59.917887 #21151] DEBUG -- : [41d49dce-ad4e-412f-8e12-082fe7155531]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:05:59.919043 #21151] DEBUG -- : [41d49dce-ad4e-412f-8e12-082fe7155531]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:05:59.922741 #21151]  INFO -- : [41d49dce-ad4e-412f-8e12-082fe7155531] Completed 200 OK in 26ms (Views: 3.2ms)
+I, [2018-06-04T18:06:05.866519 #21151]  INFO -- : [1134008e-42ba-4865-88a4-64bb73e3dbd1] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:06:05 +0200
+I, [2018-06-04T18:06:05.867737 #21151]  INFO -- : [1134008e-42ba-4865-88a4-64bb73e3dbd1] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:06:05.870307 #21151]  INFO -- : [de2c7e4a-2848-4c7c-93a1-d125b831c1ce] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:06:05 +0200
+I, [2018-06-04T18:06:05.871516 #21151]  INFO -- : [de2c7e4a-2848-4c7c-93a1-d125b831c1ce] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:06:05.873486 #21151] DEBUG -- : [1134008e-42ba-4865-88a4-64bb73e3dbd1]   [1m[36mPpCity Load (3.9ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:06:05.876037 #21151]  INFO -- : [1134008e-42ba-4865-88a4-64bb73e3dbd1] Completed 200 OK in 8ms (Views: 7.3ms)
+D, [2018-06-04T18:06:05.876939 #21151] DEBUG -- : [de2c7e4a-2848-4c7c-93a1-d125b831c1ce]   [1m[36mPpProgram Load (3.7ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:06:05 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:06:05.880067 #21151] DEBUG -- : [de2c7e4a-2848-4c7c-93a1-d125b831c1ce]   [1m[36mPpMarche Load (0.7ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:06:05.881543 #21151] DEBUG -- : [de2c7e4a-2848-4c7c-93a1-d125b831c1ce]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+I, [2018-06-04T18:06:05.882786 #21151]  INFO -- : [8d89db34-f70f-46d5-9cbd-ec2ee5383772] Started GET "/api/ville/1/marches" for 192.168.1.244 at 2018-06-04 18:06:05 +0200
+I, [2018-06-04T18:06:05.883939 #21151]  INFO -- : [8d89db34-f70f-46d5-9cbd-ec2ee5383772] Processing by Api::ApiController#getMarche as JSON
+I, [2018-06-04T18:06:05.884101 #21151]  INFO -- : [8d89db34-f70f-46d5-9cbd-ec2ee5383772]   Parameters: {"id"=>"1"}
+D, [2018-06-04T18:06:05.885549 #21151] DEBUG -- : [de2c7e4a-2848-4c7c-93a1-d125b831c1ce]   [1m[36mPpMarche Load (3.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:06:05.887112 #21151] DEBUG -- : [de2c7e4a-2848-4c7c-93a1-d125b831c1ce]   [1m[36mPpMarche Load (0.8ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:06:05.887971 #21151] DEBUG -- : [8d89db34-f70f-46d5-9cbd-ec2ee5383772]   [1m[36mPpMarche Load (1.1ms)[0m  [1m[34mSELECT `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`city_id` = 1[0m
+I, [2018-06-04T18:06:05.888562 #21151]  INFO -- : [8d89db34-f70f-46d5-9cbd-ec2ee5383772] Completed 200 OK in 4ms (Views: 3.5ms)
+D, [2018-06-04T18:06:05.889689 #21151] DEBUG -- : [de2c7e4a-2848-4c7c-93a1-d125b831c1ce]   [1m[36mPpMarche Load (1.9ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:06:05.890932 #21151] DEBUG -- : [de2c7e4a-2848-4c7c-93a1-d125b831c1ce]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:06:05.892099 #21151] DEBUG -- : [de2c7e4a-2848-4c7c-93a1-d125b831c1ce]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:06:05.895965 #21151]  INFO -- : [de2c7e4a-2848-4c7c-93a1-d125b831c1ce] Completed 200 OK in 24ms (Views: 3.3ms)
+I, [2018-06-04T18:06:08.239846 #21151]  INFO -- : [95cd168f-eae7-4d9a-acb8-c6e75d800ea0] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:06:08 +0200
+I, [2018-06-04T18:06:08.241198 #21151]  INFO -- : [95cd168f-eae7-4d9a-acb8-c6e75d800ea0] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:06:08.243266 #21151]  INFO -- : [292c89d5-679b-4be6-887e-d925337436e8] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:06:08 +0200
+I, [2018-06-04T18:06:08.244582 #21151]  INFO -- : [292c89d5-679b-4be6-887e-d925337436e8] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:06:08.247491 #21151] DEBUG -- : [292c89d5-679b-4be6-887e-d925337436e8]   [1m[36mPpProgram Load (0.7ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:06:08 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:06:08.249181 #21151] DEBUG -- : [95cd168f-eae7-4d9a-acb8-c6e75d800ea0]   [1m[36mPpCity Load (3.0ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:06:08.251519 #21151]  INFO -- : [95cd168f-eae7-4d9a-acb8-c6e75d800ea0] Completed 200 OK in 10ms (Views: 9.2ms)
+D, [2018-06-04T18:06:08.253108 #21151] DEBUG -- : [292c89d5-679b-4be6-887e-d925337436e8]   [1m[36mPpMarche Load (4.1ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:06:08.254602 #21151] DEBUG -- : [292c89d5-679b-4be6-887e-d925337436e8]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:06:08.255908 #21151] DEBUG -- : [292c89d5-679b-4be6-887e-d925337436e8]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:06:08.257233 #21151] DEBUG -- : [292c89d5-679b-4be6-887e-d925337436e8]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:06:08.258434 #21151] DEBUG -- : [292c89d5-679b-4be6-887e-d925337436e8]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:06:08.259624 #21151] DEBUG -- : [292c89d5-679b-4be6-887e-d925337436e8]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:06:08.260804 #21151] DEBUG -- : [292c89d5-679b-4be6-887e-d925337436e8]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:06:08.264632 #21151]  INFO -- : [292c89d5-679b-4be6-887e-d925337436e8] Completed 200 OK in 20ms (Views: 3.3ms)
+I, [2018-06-04T18:06:10.037029 #21151]  INFO -- : [d0c5806b-fd54-4b67-bf3a-1e53d28d285b] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:06:10 +0200
+I, [2018-06-04T18:06:10.038125 #21151]  INFO -- : [d0c5806b-fd54-4b67-bf3a-1e53d28d285b] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:06:10.039618 #21151]  INFO -- : [667f8dc7-2ad6-44a3-bde3-2912fb990a1a] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:06:10 +0200
+I, [2018-06-04T18:06:10.040518 #21151]  INFO -- : [667f8dc7-2ad6-44a3-bde3-2912fb990a1a] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:06:10.042677 #21151] DEBUG -- : [667f8dc7-2ad6-44a3-bde3-2912fb990a1a]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:06:10 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:06:10.043987 #21151] DEBUG -- : [d0c5806b-fd54-4b67-bf3a-1e53d28d285b]   [1m[36mPpCity Load (2.2ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:06:10.045716 #21151]  INFO -- : [d0c5806b-fd54-4b67-bf3a-1e53d28d285b] Completed 200 OK in 7ms (Views: 6.7ms)
+D, [2018-06-04T18:06:10.046896 #21151] DEBUG -- : [667f8dc7-2ad6-44a3-bde3-2912fb990a1a]   [1m[36mPpMarche Load (3.1ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:06:10.047979 #21151] DEBUG -- : [667f8dc7-2ad6-44a3-bde3-2912fb990a1a]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:06:10.048961 #21151] DEBUG -- : [667f8dc7-2ad6-44a3-bde3-2912fb990a1a]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:06:10.049972 #21151] DEBUG -- : [667f8dc7-2ad6-44a3-bde3-2912fb990a1a]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:06:10.050920 #21151] DEBUG -- : [667f8dc7-2ad6-44a3-bde3-2912fb990a1a]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:06:10.051908 #21151] DEBUG -- : [667f8dc7-2ad6-44a3-bde3-2912fb990a1a]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:06:10.052864 #21151] DEBUG -- : [667f8dc7-2ad6-44a3-bde3-2912fb990a1a]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:06:10.056098 #21151]  INFO -- : [667f8dc7-2ad6-44a3-bde3-2912fb990a1a] Completed 200 OK in 15ms (Views: 2.8ms)
+I, [2018-06-04T18:06:10.058709 #21151]  INFO -- : [cf1c89bb-7223-4911-a321-1d7576129d3b] Started GET "/api/ville/4240/marches" for 192.168.1.244 at 2018-06-04 18:06:10 +0200
+I, [2018-06-04T18:06:10.059634 #21151]  INFO -- : [cf1c89bb-7223-4911-a321-1d7576129d3b] Processing by Api::ApiController#getMarche as JSON
+I, [2018-06-04T18:06:10.059724 #21151]  INFO -- : [cf1c89bb-7223-4911-a321-1d7576129d3b]   Parameters: {"id"=>"4240"}
+D, [2018-06-04T18:06:10.061595 #21151] DEBUG -- : [cf1c89bb-7223-4911-a321-1d7576129d3b]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`city_id` = 4240[0m
+I, [2018-06-04T18:06:10.063087 #21151]  INFO -- : [cf1c89bb-7223-4911-a321-1d7576129d3b] Completed 200 OK in 3ms (Views: 2.6ms)
+I, [2018-06-04T18:06:11.836405 #21151]  INFO -- : [a64bb3cc-ae37-486c-b9aa-3f393a4252a3] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 18:06:11 +0200
+I, [2018-06-04T18:06:11.837751 #21151]  INFO -- : [a64bb3cc-ae37-486c-b9aa-3f393a4252a3] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T18:06:11.839815 #21151]  INFO -- : [a7990ff2-6cc5-47d0-a640-0f080b842cd1] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 18:06:11 +0200
+I, [2018-06-04T18:06:11.841011 #21151]  INFO -- : [a7990ff2-6cc5-47d0-a640-0f080b842cd1] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T18:06:11.843976 #21151] DEBUG -- : [a7990ff2-6cc5-47d0-a640-0f080b842cd1]   [1m[36mPpProgram Load (0.7ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 18:06:11 +0200' ) LIMIT 7[0m
+D, [2018-06-04T18:06:11.845728 #21151] DEBUG -- : [a64bb3cc-ae37-486c-b9aa-3f393a4252a3]   [1m[36mPpCity Load (3.1ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T18:06:11.848063 #21151]  INFO -- : [a64bb3cc-ae37-486c-b9aa-3f393a4252a3] Completed 200 OK in 10ms (Views: 9.1ms)
+D, [2018-06-04T18:06:11.849626 #21151] DEBUG -- : [a7990ff2-6cc5-47d0-a640-0f080b842cd1]   [1m[36mPpMarche Load (4.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:06:11.850978 #21151] DEBUG -- : [a7990ff2-6cc5-47d0-a640-0f080b842cd1]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T18:06:11.852158 #21151] DEBUG -- : [a7990ff2-6cc5-47d0-a640-0f080b842cd1]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:06:11.853379 #21151] DEBUG -- : [a7990ff2-6cc5-47d0-a640-0f080b842cd1]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T18:06:11.854555 #21151] DEBUG -- : [a7990ff2-6cc5-47d0-a640-0f080b842cd1]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T18:06:11.855700 #21151] DEBUG -- : [a7990ff2-6cc5-47d0-a640-0f080b842cd1]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T18:06:11.856921 #21151] DEBUG -- : [a7990ff2-6cc5-47d0-a640-0f080b842cd1]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T18:06:11.860767 #21151]  INFO -- : [a7990ff2-6cc5-47d0-a640-0f080b842cd1] Completed 200 OK in 20ms (Views: 3.3ms)
+I, [2018-06-04T19:40:06.759985 #21151]  INFO -- : [4d0f90d4-dade-43f2-8d8c-c9c9b94551da] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 19:40:06 +0200
+I, [2018-06-04T19:40:06.761050 #21151]  INFO -- : [4d0f90d4-dade-43f2-8d8c-c9c9b94551da] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T19:40:06.762905 #21151] DEBUG -- : [4d0f90d4-dade-43f2-8d8c-c9c9b94551da]   [1m[36mPpProgram Load (0.5ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 19:40:06 +0200' ) LIMIT 7[0m
+D, [2018-06-04T19:40:06.764408 #21151] DEBUG -- : [4d0f90d4-dade-43f2-8d8c-c9c9b94551da]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T19:40:06.765352 #21151] DEBUG -- : [4d0f90d4-dade-43f2-8d8c-c9c9b94551da]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T19:40:06.766308 #21151] DEBUG -- : [4d0f90d4-dade-43f2-8d8c-c9c9b94551da]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T19:40:06.767219 #21151] DEBUG -- : [4d0f90d4-dade-43f2-8d8c-c9c9b94551da]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T19:40:06.768164 #21151] DEBUG -- : [4d0f90d4-dade-43f2-8d8c-c9c9b94551da]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T19:40:06.769071 #21151] DEBUG -- : [4d0f90d4-dade-43f2-8d8c-c9c9b94551da]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T19:40:06.769919 #21151] DEBUG -- : [4d0f90d4-dade-43f2-8d8c-c9c9b94551da]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T19:40:06.772577 #21151]  INFO -- : [4d0f90d4-dade-43f2-8d8c-c9c9b94551da] Completed 200 OK in 11ms (Views: 2.3ms)
+I, [2018-06-04T19:40:09.837200 #21151]  INFO -- : [4b1dbe93-1094-40e3-ba10-0fcd374382d4] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 19:40:09 +0200
+I, [2018-06-04T19:40:09.838470 #21151]  INFO -- : [4b1dbe93-1094-40e3-ba10-0fcd374382d4] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T19:40:09.843148 #21151] DEBUG -- : [4b1dbe93-1094-40e3-ba10-0fcd374382d4]   [1m[36mPpCity Load (2.8ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T19:40:09.845532 #21151]  INFO -- : [4b1dbe93-1094-40e3-ba10-0fcd374382d4] Completed 200 OK in 7ms (Views: 6.0ms)
+I, [2018-06-04T19:40:09.851813 #21151]  INFO -- : [133ff53b-e62f-4a4f-bb12-f1d9a2e6b80f] Started GET "/api/ville/4240/marches" for 192.168.1.244 at 2018-06-04 19:40:09 +0200
+I, [2018-06-04T19:40:09.852905 #21151]  INFO -- : [133ff53b-e62f-4a4f-bb12-f1d9a2e6b80f] Processing by Api::ApiController#getMarche as JSON
+I, [2018-06-04T19:40:09.853015 #21151]  INFO -- : [133ff53b-e62f-4a4f-bb12-f1d9a2e6b80f]   Parameters: {"id"=>"4240"}
+D, [2018-06-04T19:40:09.855309 #21151] DEBUG -- : [133ff53b-e62f-4a4f-bb12-f1d9a2e6b80f]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`city_id` = 4240[0m
+I, [2018-06-04T19:40:09.857876 #21151]  INFO -- : [133ff53b-e62f-4a4f-bb12-f1d9a2e6b80f] Completed 200 OK in 5ms (Views: 3.9ms)
+I, [2018-06-04T19:40:11.834669 #21151]  INFO -- : [2a8ec405-8aca-462f-b6cc-9a8438cb6baa] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 19:40:11 +0200
+I, [2018-06-04T19:40:11.835838 #21151]  INFO -- : [2a8ec405-8aca-462f-b6cc-9a8438cb6baa] Processing by Api::ApiController#proximity as JSON
+I, [2018-06-04T19:40:11.838151 #21151]  INFO -- : [1701d3bb-8bd4-41ba-acdf-21259bc09c07] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 19:40:11 +0200
+I, [2018-06-04T19:40:11.839182 #21151]  INFO -- : [1701d3bb-8bd4-41ba-acdf-21259bc09c07] Processing by Api::ApiController#all as JSON
+D, [2018-06-04T19:40:11.841058 #21151] DEBUG -- : [2a8ec405-8aca-462f-b6cc-9a8438cb6baa]   [1m[36mPpProgram Load (3.4ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 19:40:11 +0200' ) LIMIT 7[0m
+D, [2018-06-04T19:40:11.843023 #21151] DEBUG -- : [2a8ec405-8aca-462f-b6cc-9a8438cb6baa]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T19:40:11.844000 #21151] DEBUG -- : [1701d3bb-8bd4-41ba-acdf-21259bc09c07]   [1m[36mPpCity Load (3.2ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T19:40:11.846311 #21151]  INFO -- : [1701d3bb-8bd4-41ba-acdf-21259bc09c07] Completed 200 OK in 7ms (Views: 6.2ms)
+D, [2018-06-04T19:40:11.847965 #21151] DEBUG -- : [2a8ec405-8aca-462f-b6cc-9a8438cb6baa]   [1m[36mPpMarche Load (4.2ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T19:40:11.849296 #21151] DEBUG -- : [2a8ec405-8aca-462f-b6cc-9a8438cb6baa]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T19:40:11.850536 #21151] DEBUG -- : [2a8ec405-8aca-462f-b6cc-9a8438cb6baa]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T19:40:11.851594 #21151] DEBUG -- : [2a8ec405-8aca-462f-b6cc-9a8438cb6baa]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T19:40:11.852715 #21151] DEBUG -- : [2a8ec405-8aca-462f-b6cc-9a8438cb6baa]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T19:40:11.853885 #21151] DEBUG -- : [2a8ec405-8aca-462f-b6cc-9a8438cb6baa]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T19:40:11.858083 #21151]  INFO -- : [2a8ec405-8aca-462f-b6cc-9a8438cb6baa] Completed 200 OK in 22ms (Views: 3.3ms)
+I, [2018-06-04T19:40:15.697003 #21151]  INFO -- : [f833a5ef-f103-4782-bfc8-7d31a51d6255] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 19:40:15 +0200
+I, [2018-06-04T19:40:15.698364 #21151]  INFO -- : [f833a5ef-f103-4782-bfc8-7d31a51d6255] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T19:40:15.699210 #21151]  INFO -- : [2c95476e-7093-458f-a871-ed8bafbd1608] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 19:40:15 +0200
+I, [2018-06-04T19:40:15.700192 #21151]  INFO -- : [2c95476e-7093-458f-a871-ed8bafbd1608] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T19:40:15.703555 #21151] DEBUG -- : [2c95476e-7093-458f-a871-ed8bafbd1608]   [1m[36mPpProgram Load (0.7ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 19:40:15 +0200' ) LIMIT 7[0m
+D, [2018-06-04T19:40:15.705519 #21151] DEBUG -- : [2c95476e-7093-458f-a871-ed8bafbd1608]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T19:40:15.706538 #21151] DEBUG -- : [f833a5ef-f103-4782-bfc8-7d31a51d6255]   [1m[36mPpCity Load (3.2ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T19:40:15.708846 #21151]  INFO -- : [f833a5ef-f103-4782-bfc8-7d31a51d6255] Completed 200 OK in 10ms (Views: 6.8ms)
+D, [2018-06-04T19:40:15.709718 #21151] DEBUG -- : [2c95476e-7093-458f-a871-ed8bafbd1608]   [1m[36mPpMarche Load (3.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T19:40:15.711034 #21151] DEBUG -- : [2c95476e-7093-458f-a871-ed8bafbd1608]   [1m[36mPpMarche Load (0.6ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T19:40:15.712143 #21151] DEBUG -- : [2c95476e-7093-458f-a871-ed8bafbd1608]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+I, [2018-06-04T19:40:15.712812 #21151]  INFO -- : [5740f505-0e19-4723-9e88-e0d1ef57a101] Started GET "/api/ville/4241/marches" for 192.168.1.244 at 2018-06-04 19:40:15 +0200
+I, [2018-06-04T19:40:15.715306 #21151]  INFO -- : [5740f505-0e19-4723-9e88-e0d1ef57a101] Processing by Api::ApiController#getMarche as JSON
+I, [2018-06-04T19:40:15.715434 #21151]  INFO -- : [5740f505-0e19-4723-9e88-e0d1ef57a101]   Parameters: {"id"=>"4241"}
+D, [2018-06-04T19:40:15.714103 #21151] DEBUG -- : [2c95476e-7093-458f-a871-ed8bafbd1608]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T19:40:15.719476 #21151] DEBUG -- : [2c95476e-7093-458f-a871-ed8bafbd1608]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T19:40:15.720585 #21151] DEBUG -- : [2c95476e-7093-458f-a871-ed8bafbd1608]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T19:40:15.723814 #21151]  INFO -- : [2c95476e-7093-458f-a871-ed8bafbd1608] Completed 200 OK in 23ms (Views: 2.7ms)
+D, [2018-06-04T19:40:15.725706 #21151] DEBUG -- : [5740f505-0e19-4723-9e88-e0d1ef57a101]   [1m[36mPpMarche Load (8.6ms)[0m  [1m[34mSELECT `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`city_id` = 4241[0m
+I, [2018-06-04T19:40:15.726735 #21151]  INFO -- : [5740f505-0e19-4723-9e88-e0d1ef57a101] Completed 200 OK in 11ms (Views: 10.4ms)
+I, [2018-06-04T19:40:17.630016 #21151]  INFO -- : [b8bd538e-0c03-4c81-9f85-730565783968] Started GET "/api/villes/all" for 192.168.1.244 at 2018-06-04 19:40:17 +0200
+I, [2018-06-04T19:40:17.630664 #21151]  INFO -- : [b8bd538e-0c03-4c81-9f85-730565783968] Processing by Api::ApiController#all as JSON
+I, [2018-06-04T19:40:17.631528 #21151]  INFO -- : [c6a8e900-940e-4615-9de5-629a0cf0c48b] Started GET "/api/proximity/market" for 192.168.1.244 at 2018-06-04 19:40:17 +0200
+I, [2018-06-04T19:40:17.631975 #21151]  INFO -- : [c6a8e900-940e-4615-9de5-629a0cf0c48b] Processing by Api::ApiController#proximity as JSON
+D, [2018-06-04T19:40:17.633159 #21151] DEBUG -- : [c6a8e900-940e-4615-9de5-629a0cf0c48b]   [1m[36mPpProgram Load (0.3ms)[0m  [1m[34mSELECT  `pp_program`.* FROM `pp_program` WHERE (date_deb <= '2018-06-04 19:40:17 +0200' ) LIMIT 7[0m
+D, [2018-06-04T19:40:17.634845 #21151] DEBUG -- : [c6a8e900-940e-4615-9de5-629a0cf0c48b]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T19:40:17.636113 #21151] DEBUG -- : [c6a8e900-940e-4615-9de5-629a0cf0c48b]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 1 LIMIT 1[0m
+D, [2018-06-04T19:40:17.637220 #21151] DEBUG -- : [c6a8e900-940e-4615-9de5-629a0cf0c48b]   [1m[36mPpMarche Load (0.5ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T19:40:17.639388 #21151] DEBUG -- : [b8bd538e-0c03-4c81-9f85-730565783968]   [1m[36mPpCity Load (6.7ms)[0m  [1m[34mSELECT `pp_city`.* FROM `pp_city` WHERE `pp_city`.`country_id` = 37[0m
+I, [2018-06-04T19:40:17.641616 #21151]  INFO -- : [b8bd538e-0c03-4c81-9f85-730565783968] Completed 200 OK in 11ms (Views: 10.4ms)
+D, [2018-06-04T19:40:17.641768 #21151] DEBUG -- : [c6a8e900-940e-4615-9de5-629a0cf0c48b]   [1m[36mPpMarche Load (4.0ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 3 LIMIT 1[0m
+D, [2018-06-04T19:40:17.642803 #21151] DEBUG -- : [c6a8e900-940e-4615-9de5-629a0cf0c48b]   [1m[36mPpMarche Load (0.4ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 2 LIMIT 1[0m
+D, [2018-06-04T19:40:17.643420 #21151] DEBUG -- : [c6a8e900-940e-4615-9de5-629a0cf0c48b]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 5 LIMIT 1[0m
+D, [2018-06-04T19:40:17.644004 #21151] DEBUG -- : [c6a8e900-940e-4615-9de5-629a0cf0c48b]   [1m[36mPpMarche Load (0.3ms)[0m  [1m[34mSELECT  `pp_marche`.* FROM `pp_marche` WHERE `pp_marche`.`marche_id` = 44 LIMIT 1[0m
+I, [2018-06-04T19:40:17.645907 #21151]  INFO -- : [c6a8e900-940e-4615-9de5-629a0cf0c48b] Completed 200 OK in 14ms (Views: 1.6ms)
+I, [2018-06-04T19:40:17.660339 #21151]  INFO -- : [669378b8-be82-45b4-a9b3-b46bfb3a6bcb] Started GET "/api/marche/%5Bobject%20Object%5D/produits" for 192.168.1.244 at 2018-06-04 19:40:17 +0200
+I, [2018-06-04T19:40:17.661049 #21151]  INFO -- : [669378b8-be82-45b4-a9b3-b46bfb3a6bcb] Processing by Api::ApiController#getProduit as JSON
+I, [2018-06-04T19:40:17.661105 #21151]  INFO -- : [669378b8-be82-45b4-a9b3-b46bfb3a6bcb]   Parameters: {"id"=>"[object Object]"}
+D, [2018-06-04T19:40:26.984931 #21151] DEBUG -- : [669378b8-be82-45b4-a9b3-b46bfb3a6bcb]   [1m[35m (399.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-06-04T19:40:32.064905 #21151] DEBUG -- : [669378b8-be82-45b4-a9b3-b46bfb3a6bcb]   [1m[36mProduit Load (1015.9ms)[0m  [1m[34mSELECT `produits`.* FROM `produits` WHERE `produits`.`market_id` = 0[0m
+I, [2018-06-04T19:40:32.065715 #21151]  INFO -- : [669378b8-be82-45b4-a9b3-b46bfb3a6bcb] Completed 200 OK in 14404ms (Views: 1.5ms | ActiveRecord: 2493.0ms)

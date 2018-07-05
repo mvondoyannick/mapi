@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nom marché:</strong>
+  <%= @market.name %>
+</p>
+
+<p>
+  <strong>Quartier localisation	:</strong>
+  <%= @market.quartier.name %>
+</p>
+
+<p>
+  <strong>Type de marché:</strong>
+  <%= @market.type.name %>
+</p>
+
+<p>
+  <strong>Date debut:</strong>
+  <%= @market.debut %>
+</p>
+
+<p>
+  <strong>Date fin:</strong>
+  <%= @market.fin %>
+</p>
+
+<%= link_to 'Edit', edit_market_path(@market) %> |
+<%= link_to 'Back', markets_path %>

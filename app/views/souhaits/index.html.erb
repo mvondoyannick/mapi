@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Souhaits</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Detail</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @souhaits.each do |souhait| %>
+      <tr>
+        <td><%= souhait.title %></td>
+        <td><%= souhait.detail %></td>
+        <td><%= link_to 'Show', souhait %></td>
+        <td><%= link_to 'Edit', edit_souhait_path(souhait) %></td>
+        <td><%= link_to 'Destroy', souhait, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Souhait', new_souhait_path %>

@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Produits</h1>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th>Name</th>
+      <th>Prix</th>
+      <th>Marché cible</th>
+      <th>Quantite</th>
+      <th>Variété</th>
+      <th>Images</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @produits.each do |produit| %>
+      <tr>
+        <td><%= produit.name %></td>
+        <td><%= produit.prix %></td>
+        <% if produit.market.nil? %>
+          <td>Aucun marché cible</td>
+          <% else %>
+          <td><%= produit.market.name %></td>
+        <% end %>
+        <td><%= produit.quantite %></td>
+        <% if produit.variete.nil?  %>
+          <td>Inconnu</td>
+          <% else %>
+          <td><%= produit.variete.name %></td>
+        <% end %>
+        <td><%= image_tag(produit.photo_url, size: '50') %></td>
+        <td><%= link_to 'Show', produit %></td>
+        <td><%= link_to 'Edit', edit_produit_path(produit) %></td>
+        <td><%= link_to 'Destroy', produit, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Produit', new_produit_path %>

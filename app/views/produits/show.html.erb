@@ -1,0 +1,34 @@
+<p id="notice" class="alert alert-primary" role="alert"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @produit.name %>
+</p>
+
+<p>
+  <strong>Prix:</strong>
+  <%= @produit.prix %>
+</p>
+
+<p>
+  <strong>Quantite:</strong>
+  <%= @produit.quantite %>
+</p>
+
+<p>
+  <strong>Marche cible:</strong>
+  <%= @produit.market.name %>
+</p>
+
+<p>
+  <strong>Variété:</strong>
+  <%= @produit.variete.name %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= image_tag(@produit.photo_url, size: '200')  %>
+</p>
+
+<%= link_to 'Edit', edit_produit_path(@produit) %> |
+<%= link_to 'Back', produits_path %>

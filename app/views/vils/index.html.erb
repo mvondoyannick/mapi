@@ -1,0 +1,53 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Liste des Villes</h1>
+
+<div class="row">
+  <div class="col s6 m6">
+    <% @vils.each do |vil| %>
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <%= image_tag vil.image_url, height:200, width: 100, class: "activator" %>
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4"><%= vil.name %><i class="material-icons right">Actions</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4"><%= vil.name %><i class="material-icons right">Fermer</i></span>
+          <p>
+            <%= link_to 'Show', vil, class: "waves-effect waves-light btn" %>
+            <%= link_to 'Edit', edit_vil_path(vil), class: "waves-effect waves-light btn" %>
+            <%= link_to 'Supprimer', vil, method: :delete, data: { confirm: 'Are you sure?' }, class: "waves-effect waves-light btn" %>
+          </p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<!-- <table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Image</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @vils.each do |vil| %>
+      <tr>
+        <td><%= vil.name %></td>
+        <td><%= image_tag vil.image_url, height:40, width: 55 %></td>
+        <td><%= link_to 'Show', vil %></td>
+        <td><%= link_to 'Edit', edit_vil_path(vil) %></td>
+        <td><%= link_to 'Destroy', vil, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table> -->
+
+<br>
+
+<%= link_to 'Ajouter une nouvelle ville', new_vil_path %>

@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Markets</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Ville</th>
+      <th>Type</th>
+      <th>Date debut</th>
+      <th>Date fin</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @markets.each do |market| %>
+      <tr>
+        <td><%= market.name %></td>
+        <td><%= market.quartier_id %></td>
+         <td><%= market.type.name %></td>
+         <td><%= market.debut %></td>
+         <td><%= market.fin %></td>
+        <td><%= link_to 'Show', market %></td>
+        <td><%= link_to 'Edit', edit_market_path(market) %></td>
+        <td><%= link_to 'Destroy', market, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Market', new_market_path %>
+<%= console %>

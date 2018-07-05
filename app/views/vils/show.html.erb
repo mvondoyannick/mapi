@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card hoverable">
+      <div class="card-image">
+        <%= image_tag @vil.image_url %>
+        <span class="card-title">
+          <%= @vil.name %>
+        </span>
+        <a class="btn-floating halfway-fab waves-effect waves-light red">
+          <i class="material-icons">+</i>
+        </a>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= link_to 'Edit', edit_vil_path(@vil) %> |
+<%= link_to 'Back', vils_path %>

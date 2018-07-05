@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Arrondissements</h1>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th>Name</th>
+      <th>Vil</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @arrondissements.each do |arrondissement| %>
+      <tr>
+        <td><%= arrondissement.name %></td>
+        <td><%= arrondissement.vil.name %></td>
+        <td><%= link_to 'Show', arrondissement %></td>
+        <td><%= link_to 'Edit', edit_arrondissement_path(arrondissement) %></td>
+        <td><%= link_to 'Destroy', arrondissement, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Arrondissement', new_arrondissement_path %>

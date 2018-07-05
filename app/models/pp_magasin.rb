@@ -1,0 +1,4 @@
+class PpMagasin < ActiveRecord::Base
+  establish_connection :development
+  self.table_name = "pp_magasin"
+end

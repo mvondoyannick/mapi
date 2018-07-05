@@ -1,0 +1,17 @@
+
+<%= simple_form_for(@produit) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-group">
+    <%= f.input :name, placeholder: 'Nom du produit' %>
+    <%= f.input :prix, placeholder: 'Prix du produit' %>
+    <%= f.input :quantite, placeholder: 'quantite du produit' %>
+    <%= f.association :variete, prompt: 'Selectionner une categorie' %>
+    <%= f.association :market, prompt: "Selectionner le marché cible" %>
+    <%= f.input :photo, as: :file, placeholder: 'Selectionner une photo' %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

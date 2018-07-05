@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @souhait.title %>
+</p>
+
+<p>
+  <strong>Detail:</strong>
+  <%= @souhait.detail %>
+</p>
+
+<%= link_to 'Edit', edit_souhait_path(@souhait) %> |
+<%= link_to 'Back', souhaits_path %>

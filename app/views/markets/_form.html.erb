@@ -1,0 +1,16 @@
+
+<%= simple_form_for(@market) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name, placeholder: "Nom du marché" %>
+    <%= f.association :quartier, prompt: "Quartier du marché" %>
+    <%= f.association :type, prompt: "Type du marché" %>
+    <%= f.input :debut, placeholder: "Date de debut", as: :date, html5: true %>
+    <%= f.input :fin, placeholder: "Date de fin", as: :date, html5: true %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

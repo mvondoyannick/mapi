@@ -1,0 +1,2 @@
+module VilsHelper
+end

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @quartier.name %>
+</p>
+
+<p>
+  <strong>Arrondissement:</strong>
+  <%= @quartier.arrondissement.name %>
+</p>
+
+<%= link_to 'Edit', edit_quartier_path(@quartier) %> |
+<%= link_to 'Back', quartiers_path %>

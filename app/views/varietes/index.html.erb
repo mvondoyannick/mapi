@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Varietes</h1>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @varietes.each do |variete| %>
+      <tr>
+        <td><%= variete.name %></td>
+        <td><%= link_to 'Show', variete %></td>
+        <td><%= link_to 'Edit', edit_variete_path(variete) %></td>
+        <td><%= link_to 'Destroy', variete, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Variete', new_variete_path %>
